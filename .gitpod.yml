@@ -9,6 +9,7 @@ tasks:
   - name: workspace configuration
     command: |
       sudo apt-get update && sudo apt-get install -y hugo
+      cd /workspace/website && hugo serve
 
 vscode:
   extensions:
