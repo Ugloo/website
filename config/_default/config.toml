@@ -1,0 +1,97 @@
+baseURL = "https://www.ugloo.com/"
+languageCode = "fr-fr"
+title = "Ugloo | Le stockage indestructible"
+theme = "hugo-arcana"
+copyright = "© 2024. All rights reserved"
+
+defaultContentLanguage = "fr"
+[languages]
+    [languages.fr]
+        languageName = "Français"
+        weight = 1
+    [languages.en]
+        languageName = "English"
+        weight = 2
+    [languages.de]
+        languageName = "Deutsch"
+        weight = 3
+
+[taxonomies]
+    tag = "tags"
+
+[params]
+    description = "A business/corporate style responsive site template."
+    show_post_dates = true
+
+    [[params.social]]
+        title = "Twitter"
+        icon = "fa-twitter"
+        url = "https://twitter.com/hashtag/ugloo"
+    [[params.social]]
+        title = "LinkedIn"
+        icon = "fa-linkedin-in"
+        url = "https://www.linkedin.com/company/ugloo/"
+    [[params.social]]
+        title = "GitHub"
+        icon = "fa-github"
+        url = "https://github.com/ugloo"
+    [[params.social]]
+        title = "Gitlab"
+        icon = "fa-gitlab"
+        url = "https://git.deeptorrent.io/"
+
+
+    [params.footer]
+
+        [[params.footer.links]]
+            header = "Links to Stuff"
+        [[params.footer.links.links]]
+            title = "Mattis et quis rutrum"
+            url = "#"
+        [[params.footer.links.links]]
+            title = "Suspendisse amet varius"
+            url = "#"
+        [[params.footer.links.links]]
+            title = "Sed et dapibus quis"
+            url = "#"
+        [[params.footer.links.links]]
+            title = "Rutrum accumsan dolor"
+            url = "#"
+        [[params.footer.links.links]]
+            title = "Mattis rutrum accumsan"
+            url = "#"
+        [[params.footer.links.links]]
+            title = "Suspendisse varius nibh"
+            url = "#"
+        [[params.footer.links.links]]
+            title = "Sed et dapibus mattis"
+            url = "#"
+
+        [[params.footer.links]]
+            header = "More Links to Stuff"
+        [[params.footer.links.links]]
+            title = "Duis neque nisi dapibus"
+            url = "#"
+        [[params.footer.links.links]]
+            title = "Sed et dapibus quis"
+            url = "#"
+        [[params.footer.links.links]]
+            title = "Rutrum accumsan sed"
+            url = "#"
+        [[params.footer.links.links]]
+            title = "Mattis et sed accumsan"
+            url = "#"
+        [[params.footer.links.links]]
+            title = "Duis neque nisi sed"
+            url = "#"
+        [[params.footer.links.links]]
+            title = "Sed et dapibus quis"
+            url = "#"
+        [[params.footer.links.links]]
+            title = "Rutrum amet varius"
+            url = "#"
+
+        [params.footer.contact_form]
+            enabled = true
+            header = "Contactez-nous !"
+            action = ""

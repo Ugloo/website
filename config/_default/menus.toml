@@ -1,0 +1,41 @@
+[[main]]
+    name = "La solution Ugloo"
+    weight = 60
+[[main]]
+    parent = "La solution Ugloo"
+    name = "Certifications et récompenses"
+    weight = 61
+[[main]]
+    parent = "La solution Ugloo"
+    name = "Partenariats technologiques"
+    weight = 62
+[[main]]
+    parent = "La solution Ugloo"
+    name = "Marché ciblé"
+    weight = 63
+[[main]]
+    parent = "La solution Ugloo"
+    name = "Use-cases de prédilection"
+    weight = 64
+[[main]]
+    parent = "Use-cases de prédilection"
+    name = "Imagerie médicale PACS"
+    identifier = "PACS"
+    weight = 65
+[[main]]
+    parent = "Use-cases de prédilection"
+    name = "Imagerie satellitaire"
+    weight = 66
+[[main]]
+    parent = "Use-cases de prédilection"
+    name = "Archives vidéo"
+    weight = 67
+[[main]]
+    parent = "Use-cases de prédilection"
+    name = "Géocluster & PCA"
+    weight = 68
+[[main]]
+    parent = "Use-cases de prédilection"
+    name = "Backend de stockage pour solutions de sauvegarde"
+    identifier = "sub-veroeros"
+    weight = 39
