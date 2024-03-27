@@ -5,6 +5,11 @@ image:
   # gitpod/workspace-full
   # file: .gitpod.Dockerfile
 
+tasks:
+  - name: workspace configuration
+    command: |
+      sudo apt-get update && sudo install -y hugo
+
 vscode:
   extensions:
     - yzhang.markdown-all-in-one
