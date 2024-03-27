@@ -8,7 +8,7 @@ image:
 tasks:
   - name: workspace configuration
     command: |
-      sudo apt-get update && sudo install -y hugo
+      sudo apt-get update && sudo apt-get install -y hugo
 
 vscode:
   extensions:
