@@ -1,0 +1,14 @@
+image:
+  # This image is built upon the following Dockerfile: .gitpod.Dockerfile
+  gitpod/workspace-go
+  # You can dynamically build the image when you create a new GitPod workspace with the following lines
+  # gitpod/workspace-full
+  # file: .gitpod.Dockerfile
+
+vscode:
+  extensions:
+    - yzhang.markdown-all-in-one
+    - Gruntfuggly.todo-tree
+
+workspaceLocation:
+  "."
