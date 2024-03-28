@@ -12,9 +12,6 @@ defaultContentLanguage = "fr"
     [languages.en]
         languageName = "English"
         weight = 2
-    [languages.de]
-        languageName = "Deutsch"
-        weight = 3
 
 [taxonomies]
     tag = "tags"
