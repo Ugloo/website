@@ -6,7 +6,7 @@
 # https://schema.org/Thing
 # https://schema.org/Article
 description = "Stockage objet compatible AWS S3, indestructible, illimité et distribué"
-images = ['images/favicon.png','images/polarbear.jpg']
+images = ['images/favicon.png','images/object-storage-polar-bear.jpg']
 mainMenuLogo = "images/favicon.png"
 
 # For favicons
