@@ -1,3 +1,4 @@
+# TODO: voir à quoi sert la baseURL
 baseURL = 'https://filipecarneiro.github.io/hugo-bootstrap-theme/'
 title = "Ugloo"
 author = "Ludovic Piot"
@@ -38,6 +39,8 @@ enableEmoji = true
 
 [permalinks]
   post = "/post/:title/"
+  feature = "/feature/:title/"
+  event = "/event/:title/"
 
 [module]
   [module.hugoVersion]
