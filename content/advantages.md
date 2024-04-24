@@ -1,22 +1,20 @@
 ---
-title: "Une réponse aux besoins"
-description: "Les enjeux du marché de la Data"
+title: "Les avantages"
+description: "Sidebar on the left, content on the right."
 menu: main
-weight: 20
-image: images/qBgDNmPmkJjwYH3Kdk8TEj.jpg
-image_alt: "Un ours polaire"
+weight: 30
+image: images/banner.jpg
+image_alt: "Hello!"
 tags: ["examples", "content", "sidebar"]
-sidebar_left: sidebar1
 ---
+Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
+Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
+consequat etiam lorem ipsum dolor sit amet nullam.
 
-### Un marché de la donnée en croissance exponentielle !
-La production de données croît de manière exponentielle depuis l'avènement du smartphone, en 2007.
+![Texte alternatif](https://www.ugloo.fr/medias/images/capture-d-e-cran-2019-08-21-a-18.50.27.png "Titre de l'image").
 
-![]()
-
-![Iceberg representing ratio between strutured and unstructured data](https://www.ugloo.fr/medias/images/capture-d-e-cran-2019-08-21-a-18.50.27.png "Les données structurées : la partie émergée de l'iceberg")
-
-Et là, on a la suite.
+### And Yet Another Subheading
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
 justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
 ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
