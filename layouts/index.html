@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+<section class="section bd-masthead">
+  <div class="container-xxl">
+    <div class="col-md-8 mx-auto text-center my-5">
+      <!-- TODO: revoir le layout du bandeau -->
+      <img class="container-xxl d-block mx-auto mb-3" src="{{ `images/polarbear.jpg` | relURL }}" alt="Ours polaire endormi sur un iceberg">
+      <h1 class="display-4 mb-3 text-ugloofontfamily">{{ .Site.Title }}</h1>
+      <p class="lead mb-4">{{ .Site.Params.Description }}</p>
+      <!-- TODO: revoir le link du bouton -->
+      <a class="btn btn-bd-primary btn-lg px-4 mb-2" href="https://www.ugloo.fr/" role="button">En savoir plus</a>
+      <!-- <p class="text-muted mb-0">Open-source MIT Licensed.</p> -->
+      
+    </div>
+  </div>
+</section>
+
+<section class="section container my-3">
+  {{ partial "features-in-a-nutshell" . }}
+</section>
+
+<section class="section container my-3">
+  <h3 class="text-secondary text-center my-5">En savoir plus</h3>
+  <p class="text-center"><iframe width="656" height="369" src="https://www.youtube.com/embed/annrFY8c4VA" title="Ugloo - Présentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+</section>
+
+<section class="section container my-3">
+  <h3 class="text-secondary text-center my-5">Dernières nouvelles</h3>
+  {{ partial "latest-events" . }}
+</section>
+
+<section class="section container my-3">
+  <h3 class="text-secondary text-center my-5">Derniers posts</h3>
+  {{ partial "latest-posts" . }}
+</section>
+
+<section class="section container my-3">
+  <h3 class="text-secondary text-center my-5">Nouvelles fonctionnalités</h3>
+  {{ partial "latest-features" . }}
+</section>
+
+{{ end }}

@@ -1,0 +1,98 @@
+[[main]]
+name = "La société"
+url = "about"
+weight = 10
+# title = "Made with ❤️ by the Hugo Bootstrap Theme team"
+
+# ----- Sous-menu NEEDS
+[[main]]
+identifier = "data needs"
+name = "Une réponse aux besoins"
+url = "data needs"
+weight = 20
+
+# ----- Sous-menu PROS
+[[main]]
+identifier = "pros"
+name = "Les avantages"
+url = "pros"
+weight = 30
+
+# ----- Sous-menu FEATURES
+# TODO: open the submenu with a mouseover
+[[main]]
+identifier = "features"
+name = "La solution"
+url = "feature"
+weight = 40
+
+# ----- Sous-menu Pages
+[[main]]
+identifier = "pages"
+name = "Les pages"
+url = "page"
+weight = 42
+
+# [[main]]
+# name = "élastique"
+# url = "tags/elastic-storage"
+# weight = 42
+# parent = "features"
+
+# [[main]]
+# name = "résiliante"
+# url = "tags/resilient"
+# weight = 44
+# parent = "features"
+
+# [[main]]
+# name = "décentralisée"
+# url = "tags/distributed"
+# weight = 46
+# parent = "features"
+
+# [[main]]
+# name = "sécurisée"
+# url = "tags/secure"
+# weight = 48
+# parent = "features"
+
+# ----- Sous-menu EVENTS
+[[main]]
+identifier = "events"
+name = "On parle d'Ugloo"
+url = "event"
+weight = 50
+
+# ----- Sous-menu BLOG
+[[main]]
+identifier = "blog"
+name = "Blog"
+weight = 60
+
+[[main]]
+name = "Articles tech"
+url = "tags/tech"
+weight = 62
+parent = "blog"
+
+[[main]]
+name = "Tout"
+url = "post"
+weight = 100
+parent = "blog"
+
+# ----- Sous-menu SOCIAL
+[[social]]
+  name = "GitHub"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/hugo-bootstrap-theme/images/feather/feather-sprite.svg#github'/></svg>"
+  url = "https://github.com/filipecarneiro/hugo-bootstrap-theme/"
+  weight = 10
+  title = "Visit the GitHub project"
+
+[[social]]
+  name = "Twitter"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-twitter'><use href='/hugo-bootstrap-theme/images/feather/feather-sprite.svg#twitter'/></svg>"
+  url = "https://twitter.com/jfilipecarneiro/"
+  weight = 20
+  title = "Contact on Twitter/X"

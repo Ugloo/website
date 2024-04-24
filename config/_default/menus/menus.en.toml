@@ -1,0 +1,97 @@
+[[main]]
+name = "The Company"
+url = "about"
+weight = 10
+# title = "Made with ❤️ by the Hugo Bootstrap Theme team"
+
+# ----- Submenu NEEDS
+[[main]]
+identifier = "data needs"
+name = "An answer to data needs"
+url = "data needs"
+weight = 20
+
+# ----- Submenu PROS
+[[main]]
+identifier = "pros"
+name = "Pros"
+url = "pros"
+weight = 30
+
+# ----- Sous-menu Pages
+[[main]]
+identifier = "pages"
+name = "TEST-Pages"
+url = "page"
+weight = 42
+
+# ----- Submenu FEATURES
+[[main]]
+identifier = "features"
+name = "Features"
+url = "feature"
+weight = 40
+
+[[main]]
+name = "elastic"
+url = "tags/elastic-storage"
+weight = 42
+parent = "features"
+
+[[main]]
+name = "resilient"
+url = "tags/resilient"
+weight = 44
+parent = "features"
+
+[[main]]
+name = "distributed"
+url = "tags/distributed"
+weight = 46
+parent = "features"
+
+[[main]]
+name = "secure"
+url = "tags/secure"
+weight = 48
+parent = "features"
+
+# ----- Submenu EVENTS
+[[main]]
+identifier = "events"
+name = "Events & press"
+url = "tags/events"
+weight = 50
+
+# ----- Submenu BLOG
+[[main]]
+identifier = "blog"
+name = "Posts"
+weight = 60
+
+[[main]]
+name = "Tech posts"
+url = "tags/tech"
+weight = 62
+parent = "blog"
+
+[[main]]
+name = "All"
+url = "post"
+weight = 100
+parent = "blog"
+
+# ----- Submenu SOCIAL
+[[social]]
+  name = "GitHub"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/hugo-bootstrap-theme/images/feather/feather-sprite.svg#github'/></svg>"
+  url = "https://github.com/filipecarneiro/hugo-bootstrap-theme/"
+  weight = 10
+  title = "Visit the GitHub project"
+
+[[social]]
+  name = "Twitter"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-twitter'><use href='/hugo-bootstrap-theme/images/feather/feather-sprite.svg#twitter'/></svg>"
+  url = "https://twitter.com/jfilipecarneiro/"
+  weight = 20
+  title = "Contact on Twitter/X"
