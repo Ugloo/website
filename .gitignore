@@ -19,3 +19,8 @@
 
 # Go workspace file
 go.work
+
+# Hugo dynamically generated files
+.hugo_build.lock
+public
+resources
