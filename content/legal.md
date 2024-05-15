@@ -15,18 +15,18 @@ menu:
   text-transform: uppercase;
   letter-spacing: 1.2px; -->
 ## UGLOO  
-Siret : 852 409 150 000 12  
+<u>Siret :</u> 852 409 150 000 12  
 
 ### Contact
 
 Ugloo  
-9, rue du quatre septembre  
-75002, PARIS (France)  
+9, rue du Quatre Septembre  
+75002, Paris (France)  
 
 <!-- TODO: hide e-mail address and tel number
 cf. shortcodes folder -->
-E-mail : [info@ugloo.com](mailto:info@ugloo.com)  
-Tél. : +33 1 44 18 30 01
+<u>E-mail</u> 📧 [info@ugloo.com](mailto:info@ugloo.com)  
+<u>Tél.</u> 📞 +33 1 44 18 30 01
 
 ### Directeur de la publication
 
@@ -42,7 +42,7 @@ BP 70109
 57200 Sarreguemines Cedex  
 France  
 
-Le Site Web 🐻‍❄️ est hébergé sur les serveurs de **IONOS SE**  
+Le Site Web 🐻‍❄️ est hébergé sur les serveurs de **IONOS SE**.  
 
 #### IONOS SE
 Elgendorfer Str. 57  
