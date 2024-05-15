@@ -50,12 +50,19 @@
 //     color: #6528e0;
 // }
 
+// Used in home page titles #2
+.text-secondary {
+    font-family: "Montserrat","Helvetica","Arial",sans-serif; 
+    background: linear-gradient(0.25turn, var(--bs-white), var(--bd-ugloocolor), var(--bs-white));
+    color: white!important;
+}  
+
 .text-ugloofontfamily {
     font-family: "Montserrat","Helvetica","Arial",sans-serif;
     // font-weight: 500;
 }
 .text-ugloocolor {
-    color: var(--bd-ugloocolor)
+    color: var(--bd-ugloocolor) !important;
 }
 
 .list {
