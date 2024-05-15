@@ -15,6 +15,8 @@ draft: false
 * Siège social à Paris.  
 * Centre de R&D situé à Amiens.
 
+![L'équipe Ugloo](images/ugloo-team.jpg "L'équipe Ugloo")
+
 ## Une représentante de l'innovation numérique dans la recherche universitaire de la région
 
 La *startup* s'est montée pour développer et valoriser l'innovation logicielle issue d'un projet de recherche universitaire de l'**Université de Picardie Jules Verne**.
