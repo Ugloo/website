@@ -23,10 +23,10 @@ Ugloo
 9, rue du Quatre Septembre  
 75002, Paris (France)  
 
-<!-- TODO: hide e-mail address and tel number
+<!-- FIXME: hide e-mail address
 cf. shortcodes folder -->
-<u>E-mail</u> 📧 [info@ugloo.com](mailto:info@ugloo.com)  
-<u>Tél.</u> 📞 +33 1 44 18 30 01
+<u>E-mail</u> 📧 {{< email user="ugloo" domain="ugloo.com" class="cool-link" >}}[info@ugloo.com](mailto:info@ugloo.com)  
+<u>Tél.</u> 📞 {{< tel number="1 44 18 30 01" country="33" class="cool-link" note="Préférez l'e-mail…">}}
 
 ### Directeur de la publication
 
