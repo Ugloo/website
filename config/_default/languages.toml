@@ -1,13 +1,13 @@
 [fr]
-  languageName = "Français"
+  languageName = "🇫🇷 Français"
   languageCode = "fr-FR"
   weight = 10
   [fr.params]
-    languageISO = "FR"
+    languageISO = "🇫🇷"
 
 [en]
-  languageName = "English"
+  languageName = "🇺🇸 English"
   languageCode = "en-US"
   weight = 20
   [en.params]
-    languageISO = "EN"
+    languageISO = "🇺🇸"
