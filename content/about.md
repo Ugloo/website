@@ -3,7 +3,7 @@ title: "La société"
 draft: true
 ---
 
-# La société Ugloo
+# La société Ugloo et ses amis
 
 **Ugloo** est un éditeur 🇫🇷français de solution de stockage secondaire hautement sécurisée contre les _RansomWares_ (_Software Define Storage_). 
 
