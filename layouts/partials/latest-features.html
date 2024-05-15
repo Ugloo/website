@@ -1,6 +1,6 @@
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
-    {{ range first 4 (where .Site.RegularPages.ByDate.Reverse "Section" "features" ) }}
+    {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section" "features" ) }}
         <div class="col">
 
             <div class="card h-100">
@@ -10,23 +10,28 @@
                             {{ .Title }}
                         </a>
                     </h4>
-<!-- TODO: ajouter image dans les cases -->
-                    <!-- {{ with .Params.images }}
-                        {{ index . 0 | relURL }}
-                        <img ahref="{{ index . 0 | relURL }}">
-                    {{ end }} -->
-                    <!-- {{ with .Params.authors }}
-                        <p class="card-subtitle text-muted">
-                            by {{ index . 0 }}
-                        </p>
-                    {{ end }} -->
-                    <p class="card-text mt-3">
-                        {{ with .Params.description }}
-                            {{ . }}
-                        {{ else }}
-                            {{ .Summary | truncate 200 }}
+                        <!--
+                        {{ with .Params.authors }}
+                            <p class="card-subtitle text-muted">
+                                by {{ index . 0 }}
+                            </p>
                         {{ end }}
-                    </p>
+                        -->
+                        <div class="d-flex align-items-center">
+                            {{ if isset .Params "images" }}
+                                {{ with .Resources.GetMatch (index .Params.Images 0) }}
+                                    {{ $image := .Fill "600x300 Center webp" }}
+                                    <img class="img-fluid rounded p-1" src="{{ $image.Permalink }}" loading="lazy" width="{{ $image.Width }}" height="{{ $image.Height }}"/>
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                        <p class="card-text mt-3">
+                            {{ with .Params.description }}
+                            {{ . }}
+                            {{ else }}
+                            {{ .Summary | truncate 200 }}
+                            {{ end }}
+                        </p>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">{{ .Date | time.Format ":date_long" }}</small>

@@ -1,6 +1,6 @@
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+<div class="row row-cols-1 row-cols-md-2  g-4">
 
-    {{ range first 3 (where (.Site.RegularPages.ByParam "date").Reverse "Section" "events" ) }}
+    {{ range first 2 (where (.Site.RegularPages.ByParam "date").Reverse "Section" "events" ) }}
         <div class="col">
 
             <div class="card h-100">
@@ -10,11 +10,22 @@
                             {{ .Title }}
                         </a>
                     </h4>
+                    <div class="d-flex align-items-center">
+                        {{ if isset .Params "images" }}
+                            {{ with .Resources.GetMatch (index .Params.Images 0) }}
+                                {{ $image := .Fill "600x300 Center webp" }}
+                                <img class="img-fluid rounded p-1" src="{{ $image.Permalink }}" loading="lazy" width="{{ $image.Width }}" height="{{ $image.Height }}"/>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+
+                    <!--
                     {{ with .Params.authors }}
                         <p class="card-subtitle text-muted">
                             by {{ index . 0 }}
                         </p>
                     {{ end }}
+                    -->
                     <p class="card-text mt-3">
                         {{ with .Params.description }}
                             {{ . }}
