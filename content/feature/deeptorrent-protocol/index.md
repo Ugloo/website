@@ -26,28 +26,32 @@ noindex: false
 <!-- TODO: revoir la couleur de l'icone -->
 Avec sa technologie brevetée `DeepTorrent`™, `Ugloo` décentralise à 100% le stockage de vos données quelque soit la topologie de vos infrastructures.​  
 `DeepTorrent` est une extension du protocole `BitTorrent`, pour répondre aux besoins spécifiques de la solution `Ugloo`.  
+Le protocole `BitTorrent` est _OpenSource_. Il reste la solution avec le plus grand maillage de nœuds de stockage au monde.
+
 <!-- TODO: ajouter un petit descriptif du fonctionnement BitTorrent.   -->
 
 # Résilient
 
 ![Icône boucle infinie](infinite-loop-icon.jpg "Icône boucle infinie")
 
-Après chiffrement, chaque objet `S3` est fragmenté. Ces fragments sont dispersés sur l'ensemble du _cluster_, de manière multi-redondée (_erasure coding_).​  
+Après chiffrement, chaque objet `S3` est divisé en 255 fragments maximum. Ces fragments sont dispersés sur l'ensemble des nœuds disponibles sur le _cluster_.​  
+L’_Erasure Coding_ est une méthode de protection des données qui divise les données en fragments ; développés et chiffrés. Ceux-ci contiennent des éléments de données redondants et sont stockés sur différents sites ou supports de stockage. L'objectif est de pouvoir reconstruire les données qui ont été altérées lors du processus de stockage sur disque à partir des informations stockées dans d'autres emplacements du _cluster_.
+
 La redondance et les vérification/reconstruction automatiques des fragments vous apportent une **garantie à vie** de vos données​, avec un **niveau de sécurité inégalable**.
 
 # Elastique
 
 ![Icône élastique](elastic-icon.jpg "Icône élastique")
 
-A tout moment, la capacité et la performance du _cluster_ peuvent être revues (à la hausse ou à la baisse) en jouant sur le nombre de disques, le nombre de nœuds, **sans interuption de service**.  
+A tout moment, la capacité et la performance du _cluster_ peuvent être revues (à la hausse ou à la baisse) en jouant sur le nombre de disques, le nombre de nœuds, **sans interruption de service**.  
 La répartition des fragments se fait alors automatiquement, en tâche de fond, sans reconfiguration de l'_erasure code_.
 
 # Versatile
 
-`BitTorrent` est nativement adapté aux topologies réseaux hétérogènes et hostiles.  
+`BitTorrent` est nativement adapté aux topologies réseau hétérogènes et hostiles.  
 Les composants logiciels d'`Ugloo` sont déployés sous forme de _containers_ `Docker`.  
 Ainsi, la solution `Ugloo` saura fonctionner quelque soit la topologie de vos infrastructures :
-* installée sous forme d'appliances dans vos datacenters ou chez vos hébergeurs,
+* installée sous forme d'_appliances_ dans vos _datacenters_ ou chez vos hébergeurs,
 * déployée sous forme de _containers_, sur vos serveurs physiques, vos _VMs_, dans vos _clusters_ `Kubernetes`, ou sur vos infras de _Cloud_ public,
 * hébergée sur un seul site, plusieurs, voire plusieurs régions
 * sous forme hybride et/ou multi-fournisseurs
