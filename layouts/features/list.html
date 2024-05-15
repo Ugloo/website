@@ -27,7 +27,6 @@
     {{ end }}
 
     {{ if ne .Kind "taxonomy" }}
-<!-- FIXME: trier les items par date décroissante -->
         {{ range (.Pages.ByParam "date").Reverse }}
         <div class="card border-light-subtle mb-3">
             <div class="row g-0">

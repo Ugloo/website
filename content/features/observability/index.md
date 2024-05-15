@@ -2,7 +2,7 @@
 title: "Observabilité"
 # La description est utilisée comme résumé dans le digest de la homepage
 description: "Basé sur un fork de MinIO, Ugloo est un stockage objet distribué pleinement compatible avec les API d'AWS S3."
-date: 2022-05-13T13:00:44+01:00
+date: 2024-05-13T13:00:44+01:00
 draft: false
 images: ["Amazon-S3-logo.png","S3-lock.png"]
 categories: ["features"]

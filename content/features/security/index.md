@@ -2,7 +2,7 @@
 title: "Stockage indestructible"
 # La description est utilisée comme résumé dans le digest de la homepage
 description: "Ugloo propose un stockage indestructible : résilient, multi-sites, chiffré, décentralisé et immuable."
-date: 2022-05-13T13:00:44+01:00
+date: 2024-05-13T13:00:44+01:00
 draft: false
 # TODO:
 images: ["SSE-encryption.png"]

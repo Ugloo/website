@@ -2,7 +2,7 @@
 title: "Backend de stockage pour solutions de sauvegarde"
 # La description est utilisée comme résumé dans le digest de la homepage
 description: "Veeam, Comvault, Rubrik, Atempo : Ugloo est certifié pour servir de backend de stockage aux principales solutions de sauvegarde et d'archivage du marché."
-date: 2023-04-25T13:00:44+01:00
+date: 2024-04-25T13:00:44+01:00
 draft: false
 images: ["rubrik-atempo-veeam-logos.png"]
 categories: ["features"]
