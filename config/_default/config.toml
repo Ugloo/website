@@ -1,5 +1,6 @@
-# TODO: voir à quoi sert la baseURL
-baseURL = 'https://filipecarneiro.github.io/hugo-bootstrap-theme/'
+# FIXME: baseURL n'est pas pris en compte pour les images des posts
+# baseURL is used to build the full URL path of Web links
+baseURL = 'https://ugloo.github.io/website/'
 title = "Ugloo"
 author = "Ludovic Piot"
 copyright = "©2024, Ugloo."
