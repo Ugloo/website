@@ -1,21 +1,23 @@
 ---
-title: "Stockage objet compatible AWS S3"
+title: "Backend de stockage pour solutions de sauvegarde"
 # La description est utilisée comme résumé dans le digest de la homepage
-description: "Basé sur un fork de MinIO, Ugloo est un stockage objet distribué pleinement compatible avec les API d'AWS S3."
-date: 2022-05-13T13:00:44+01:00
+description: "Ugloo est certifié pour servir de backend de stockage aux principales solutions de sauvegarde et d'archivage du marché."
+date: 2023-04-25T13:00:44+01:00
 draft: false
-images: ["Amazon-S3-logo.png","S3-lock.png"]
+images: ["rubrik-atempo-veeam-logos.png"]
 categories: ["features"]
-tags: ["elastic"]
-keywords: ["S3","Amazon","MinIO","elastic"]
+tags: ["backup","certifications"]
+keywords: ["Rubik","Atempo","Miria","Tina", "Lina", "Veeam", "backup", "archivage", "certification", "validation"]
 authors: ["Ludovic Piot"]
 noindex: false
 ---
 
-![Stockage objet compatible AWS S3](Amazon-S3-logo.png "Logo Amazon S3")
+![Logos de solutions de sauvegarde compatibles Veeam / Rubrik / Atempo / ComVault](rubrik-atempo-veeam-logos.png "Logos Veeam / Rubrik / Atempo / ComVault")
 { .img-fluid }
 
-> Basé sur un _fork_ de [MinIO](https://min.io/), `Ugloo` est pleinement compatible avec les _API_ d'`AWS S3`.  
-> `Ugloo` peut donc servir de stockage à toute application tirant parti d'un stockage objet S3.
+> `Ugloo` étant compatible avec les _API_ d'`AWS S3`, il peut servir de _backend_ de stockage aux principales solutions de sauvegarde et d'archivage du marché.
 
-#### Elasticité
+En 2023, `Ugloo` a été qualifié selon les protocoles de validation et de certification des solutions suivantes :
+* Rubrik Archival Location
+* Atempo Repository S3, compatible avec Miria, Tina et Lina
+* Veeam Object Repository, compatible avec Veeam SOSAPI
