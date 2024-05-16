@@ -24,13 +24,13 @@
         --bs-btn-bg: var(--bd-ugloocolor);
         --bs-btn-border-color: var(--bd-ugloocolor);
         --bs-btn-border-radius: .5rem;
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-hover-color: var(--bd-ugloocolor);
+        --bs-btn-hover-bg: var(--bd-bkgnd);
+        --bs-btn-hover-border-color: var(--bd-ugloocolor);
         --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
         --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
+        --bs-btn-active-bg: var(--bd-ugloocolor);
+        --bs-btn-active-border-color: var(--bd-ugloocolor);
     }
 }
 

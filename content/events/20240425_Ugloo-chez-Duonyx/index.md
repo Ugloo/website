@@ -1,8 +1,6 @@
 ---
 title: "Présentation des nouvelles fonctionnalités et de la roadmap 2024"
-# La description est utilisée comme résumé dans le digest de la homepage
 description: "L'équipe Ugloo est decendue à Paris pour présenter ses nouvelles fonctionnalités et la roadmap des mois à venir"
-# FIXME: corriger les dates de publication
 date: 2024-04-25T18:00:00
 draft: false
 images: ["IMG_6554.jpeg"]

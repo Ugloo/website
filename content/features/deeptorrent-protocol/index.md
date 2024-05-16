@@ -4,7 +4,6 @@ title: "Protocole de stockage distribué DeepTorrent™"
 description: "Ugloo a développé DeepTorrent, une technologie brevetée de stockage distribué, décentralisé et immuable, extension du protocole BitTorrent."
 date: 2022-05-13T13:00:44+01:00
 draft: false
-# TODO:
 images: ["DeepTorrent-icon.png"]
 categories: ["features"]
 tags: ["deeptorrent"]
@@ -25,12 +24,11 @@ noindex: false
 ![Icône distribué](distributed-icon.png "Icône distribué")
 { .col-md-2 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
 
-<!-- TODO: revoir la couleur de l'icone -->
 Avec sa technologie brevetée `DeepTorrent`™, `Ugloo` décentralise à 100% le stockage de vos données quelque soit la topologie de vos infrastructures.​  
 `DeepTorrent` est une extension du protocole `BitTorrent`, pour répondre aux besoins spécifiques de la solution `Ugloo`.  
 Le protocole `BitTorrent` est _OpenSource_. Il reste la solution avec le plus grand maillage de nœuds de stockage au monde.
 
-<!-- TODO: ajouter un petit descriptif du fonctionnement BitTorrent.   -->
+`BitTorrent` est un protocole de stockage de fichiers _peer-to-peer_, qui permet le stockage, le partage et la distribution de fichiers volumineux via la sollicitation de pairs disposant d'une copie des-dits fichiers (tout ou parties). L'identification de ces pairs se fait dynamiquement.
 
 # Résilient
 
