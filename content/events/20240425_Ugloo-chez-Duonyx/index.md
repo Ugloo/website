@@ -12,9 +12,10 @@ keywords: ["roadmap","fonctionnalités","team building"]
 authors: ["Ludovic Piot"]
 noindex: false
 ---
+# Présentation des nouvelles fonctionnalités et de la roadmap 2024
 
 ![L'équipe Ugloo à Paris](IMG_6554.jpeg)
-{ .img-fluid }
+{ .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
 
 > 💡 Pour une fois, c’est une partie de l’équipe **Ugloo** qui est descendue à Paris.  
 > Encore un bon moment passé ensemble et une journée très instructive 🙂
@@ -23,11 +24,11 @@ Une très grande partie de l'équipe **Ugloo** a fait le déplacement, en cette 
 Au-delà de l'agréable moment partagé avec ses pairs, spécialistes des solutions de stockage, d'archivage et de _containers_, c'était surtout l'occasion, pour l'équipe **Ugloo**, de présenter en détail les dernières fonctionnalités de sa solution de stockage `S3` distribué :
 
 1. une observabilité renforcée et orientée _CSP_ avec l'intégration de **métriques [Prometheus](https://prometheus.io/)**.
-1. **_multi-tenancy_** et **_service accounts_**
-1. **réplication de _buckets_ entre 2 _clusters_** en synchrone ou en asynchrone
-1. **géocluster** avec plusieurs niveaux d'anti-affinité de localisation
-1. **chiffrement TLS en transit** sur tout le _cluster_
-1. chiffrement côté serveur et **intégration des principales _KMS_** du marché
+2. **_multi-tenancy_** et **_service accounts_**
+3. **réplication de _buckets_ entre 2 _clusters_** en synchrone ou en asynchrone
+4. **géocluster** avec plusieurs niveaux d'anti-affinité de localisation
+5. **chiffrement TLS en transit** sur tout le _cluster_
+6. chiffrement côté serveur et **intégration des principales _KMS_** du marché
 
 Un panel de clients, de représentants d'éditeurs et d'intégrateurs assistaient à cette démonstration.  
 Leur retour est unanime : **Ugloo** n'a absolument pas à rougir face à une <u>concurrence moins innovante</u> à bien des égards.  

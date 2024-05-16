@@ -82,3 +82,22 @@
         transform: rotate(-2deg) scale(1.1);
     }
 }
+
+// ----------------------------------------------------------------------------
+// Styles for single pages
+.py-3 {
+    --bd-ugloocolor: #4193b2;
+}
+.py-3 h1 {
+    font-family: "Montserrat","Helvetica","Arial",sans-serif;
+    background: linear-gradient(0.25turn, var(--bs-white), var(--bd-ugloocolor), var(--bs-white));
+    color: white!important;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.py-3 h2 {
+    font-family: "Montserrat","Helvetica","Arial",sans-serif;
+    color: var(--bd-ugloocolor);
+    margin-top: 5rem;
+}

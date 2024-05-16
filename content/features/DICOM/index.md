@@ -13,7 +13,8 @@ noindex: false
 ---
 
 ![Imagerie médicale PACS](PACS-imaging.png "Une radio médicale d'un cerveau humain")
-{ .img-fluid }
+{ .col-md-4 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
+
 
 [DICOM](https://fr.wikipedia.org/wiki/Digital_imaging_and_communications_in_medicine) est un format de fichier et un protocole de communication destinés à gérer les données numériques issues de l'imagerie médicale ([PACS](https://fr.wikipedia.org/wiki/Picture_archiving_and_communication_system)).  
 En embarcant une compatibilité native à ce standard, la solution `Ugloo` se positionne _de facto_ comme une solution de stockage et d'archivage idéale dans le milieu médical des hôpitaux et des centres d'imagerie.

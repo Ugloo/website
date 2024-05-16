@@ -9,11 +9,6 @@ menu:
 
 # Mentions légales
 
-<!-- TODO: utiliser
-  font-family: "Montserrat","Helvetica","Arial",sans-serif;
-  font-weight: 100;
-  text-transform: uppercase;
-  letter-spacing: 1.2px; -->
 ## UGLOO  
 <u>Siret :</u> 852 409 150 000 12  
 

@@ -13,8 +13,9 @@ authors: ["Ludovic Piot"]
 noindex: false
 ---
 
-![Un verrou sur les données](kaffeebart-KrPulSdUetk-unsplash.jpg "Un verrou sur les données").
-{ .img-fluid }
+![Un verrou sur les données](kaffeebart-KrPulSdUetk-unsplash.jpg "Un verrou sur les données")
+{ .col-md-6 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
+
 
 > `Ugloo` a l'ambition de vous proposer un **stockage indestructible**  
 > résilient, multi-sites, chiffré, décentralisé et immuable.
@@ -25,7 +26,6 @@ noindex: false
 
 ## Chiffrement en transit
 
-<!-- FIX: bug sur les sauts de lignes des puces -->
 * Connexion _TLS_ entre le client et la passerelle `S3`.
   * Utilisation de certificat autosigné ou fourni par le client.
 
@@ -43,7 +43,8 @@ Les données sont chiffrées à l'écriture sur le _cluster_.
 * `SSE-S3`, où une clé par défaut est attribuée au chiffrement de chaque bucket
 * `SSE-SC`, où la clé est fournie par le client à chaque opération de lecture/écriture d'un objet.
 
-![Schéma du chiffrement at-rest](SSE-encryption.png "Schéma du chiffrement at-rest").
+![Schéma du chiffrement at-rest](SSE-encryption.png "Schéma du chiffrement at-rest")
+{ .col-md-10 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
 
 # Double immutabilité
 
@@ -54,9 +55,11 @@ Les _ransomwares_ par _cryptolocking_ n'ont pas de prise sur la donnée stockée
   * et corbeille récupérable 
 
 ![Double immuabilité](double-immutability.png "schéma d'immuabilité à 2 étages")
+{ .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
 
 # Protocole BitTorrent audité
 
 `Ugloo` s'appuie sur la bibliothèque _open source_ [libtorrent](https://www.libtorrent.org/), qui a subit un [audit de sécurité, fin 2020](https://www.libtorrent.org/security-audit.html), commandité par [Mozilla Open Source Support Awards](https://www.mozilla.org/en-US/moss/) et mené par [include security](https://IncludeSecurity.com/).
 
-![Logo libtorrent](libtorrent-logo.png "Logo libtorrent").
+![Logo libtorrent](libtorrent-logo.png "Logo libtorrent")
+{ .col-md-6 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }

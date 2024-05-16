@@ -13,8 +13,8 @@ authors: ["Ludovic Piot"]
 noindex: false
 ---
 
-![Icône DeepTorrent](DeepTorrent-icon.png "Icône DeepTorrent™").
-{ .img-fluid }
+![Icône DeepTorrent](DeepTorrent-icon.png "Icône DeepTorrent™")
+{ .col-md-4 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
 
 > Issue de travaux de recherche universitaire, `Ugloo` a développé `DeepTorrent`™  
 > une technologie brevetée de **stockage distribué, décentralisé et immuable**,  
@@ -22,7 +22,9 @@ noindex: false
 
 # Décentralisé
 
-![Icône distribué](distributed-icon.png "Icône distribué").
+![Icône distribué](distributed-icon.png "Icône distribué")
+{ .col-md-2 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
+
 <!-- TODO: revoir la couleur de l'icone -->
 Avec sa technologie brevetée `DeepTorrent`™, `Ugloo` décentralise à 100% le stockage de vos données quelque soit la topologie de vos infrastructures.​  
 `DeepTorrent` est une extension du protocole `BitTorrent`, pour répondre aux besoins spécifiques de la solution `Ugloo`.  
@@ -33,6 +35,8 @@ Le protocole `BitTorrent` est _OpenSource_. Il reste la solution avec le plus gr
 # Résilient
 
 ![Icône boucle infinie](infinite-loop-icon.jpg "Icône boucle infinie")
+{ .col-md-2 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
+
 
 Après chiffrement, chaque objet `S3` est divisé en 255 fragments maximum. Ces fragments sont dispersés sur l'ensemble des nœuds disponibles sur le _cluster_.​  
 L’_Erasure Coding_ est une méthode de protection des données qui divise les données en fragments ; développés et chiffrés. Ceux-ci contiennent des éléments de données redondants et sont stockés sur différents sites ou supports de stockage. L'objectif est de pouvoir reconstruire les données qui ont été altérées lors du processus de stockage sur disque à partir des informations stockées dans d'autres emplacements du _cluster_.
@@ -42,6 +46,8 @@ La redondance et les vérification/reconstruction automatiques des fragments vou
 # Elastique
 
 ![Icône élastique](elastic-icon.jpg "Icône élastique")
+{ .col-md-2 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
+
 
 A tout moment, la capacité et la performance du _cluster_ peuvent être revues (à la hausse ou à la baisse) en jouant sur le nombre de disques, le nombre de nœuds, **sans interruption de service**.  
 La répartition des fragments se fait alors automatiquement, en tâche de fond, sans reconfiguration de l'_erasure code_.
