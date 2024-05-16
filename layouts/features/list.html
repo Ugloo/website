@@ -26,6 +26,10 @@
         </div>
     {{ end }}
 
+    <div class="container-xxl col-md-8 mx-auto text-center my-5">
+        <img class="container-xxl d-block mx-auto mb-3" src="{{ `images/Audit-icon.png` | relURL }}" alt="Schéma synthétique du produit">
+    </div>
+      
     {{ if ne .Kind "taxonomy" }}
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             {{ range (where (.Site.RegularPages.ByParam "date").Reverse "Section" "features" ) }}
