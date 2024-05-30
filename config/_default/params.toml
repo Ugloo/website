@@ -5,7 +5,7 @@
 # https://gohugo.io/templates/internal/#twitter-cards
 # https://schema.org/Thing
 # https://schema.org/Article
-description = "Stockage objet compatible AWS S3, indestructible, illimité et distribué"
+description = "Stockage objet 🇫🇷 compatible AWS S3, indestructible, illimité et distribué"
 images = ['images/favicon.png','images/Ugloo-sumup-schema.png','images/Audit-icon.png']
 mainMenuLogo = "images/favicon.png"
 
