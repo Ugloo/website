@@ -14,20 +14,22 @@
                 </div>
             {{ end }} -->
 
-            {{ if .Site.Params.options.listTagFilter }}
-                <div class="col-auto">
+            <!-- {{ if .Site.Params.options.listTagFilter }}
+                <div class="col-auto">                    
                     <svg xmlns="http://www.w3.org/2000/svg" class="feather me-2"><use href="{{ `images/feather/feather-sprite.svg#tag` | relURL }}"/></svg>
                     {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
-                        <a class="badge text-bg-light nav-link" href="{{.Permalink}}">{{.Title}}</a>&nbsp;
+                    <a class="badge text-bg-light nav-link" href="{{.Permalink}}">{{.Title}}</a>&nbsp;
                     {{end}}
                 </div>
+                {{ end }} -->
+                
+            </div>
             {{ end }}
-
-        </div>
-    {{ end }}
-
-    <div class="container-xxl col-md-8 mx-auto text-center my-5">
-        <img class="container-xxl d-block mx-auto mb-3" src="{{ `images/Audit-icon.png` | relURL }}" alt="Schéma synthétique du produit">
+            
+            <div class="container-xxl col-md-10 mx-auto text-center my-3">
+        <img class="container-xxl d-block mx-auto" src="{{ `images/Ugloo-sumup-schema.png` | relURL }}" alt="Schéma synthétique du produit">
+        <div class="alert alert-warning"><code>Ugloo</code> est une solution de <b>stockage objet</b> compatible <code>AWS S3</code> et basée sur un <i>fork</i> de <code>MinIO</code>.<br>
+        Retrouvez, ici, un descriptif de ses principales fonctionnalités.</div>
     </div>
       
     {{ if ne .Kind "taxonomy" }}

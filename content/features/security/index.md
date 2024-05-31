@@ -16,8 +16,9 @@ noindex: false
 { .col-md-6 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
 
 
-> `Ugloo` a l'ambition de vous proposer un **stockage indestructible**  
-> résilient, multi-sites, chiffré, décentralisé et immuable.
+`Ugloo` a l'ambition de vous proposer un **stockage indestructible**  
+résilient, multi-sites, chiffré, décentralisé et immuable.
+{ .alert .alert-warning }
 
 # Chiffrement des données
 

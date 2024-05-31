@@ -15,9 +15,9 @@ noindex: false
 ![Icône DeepTorrent](DeepTorrent-icon.png "Icône DeepTorrent™")
 { .col-md-4 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
 
-> Issue de travaux de recherche universitaire, `Ugloo` a développé `DeepTorrent`™  
-> une technologie brevetée de **stockage distribué, décentralisé et immuable**,  
-> extension du protocole `BitTorrent`.
+Issue de travaux de recherche universitaire, `Ugloo` a développé `DeepTorrent`™  
+une technologie brevetée de **stockage distribué, décentralisé et immuable**, extension du protocole `BitTorrent`.
+{ .alert .alert-warning }
 
 # Décentralisé
 

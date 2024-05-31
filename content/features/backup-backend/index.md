@@ -16,7 +16,8 @@ noindex: false
 { .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
 
 
-> `Ugloo` étant compatible avec les _API_ d'`AWS S3`, il peut servir de _backend_ de stockage aux principales solutions de sauvegarde et d'archivage du marché.
+`Ugloo` étant compatible avec les _API_ d'`AWS S3`, il peut servir de _backend_ de stockage aux principales solutions de sauvegarde et d'archivage du marché.
+{ .alert .alert-warning }
 
 En 2023, `Ugloo` a été qualifié selon les protocoles de validation et de certification des solutions suivantes :
 * [Rubrik Archival Location](https://docs.rubrik.com/en-us/saas/saas/arch_dc_archival_location_details.html)
