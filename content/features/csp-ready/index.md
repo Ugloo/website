@@ -19,11 +19,11 @@ L'équipe `Ugloo` s'est rapprochée des plusieurs _Cloud Service Providers_ 🇫
 pour enrichir la solution des fonctionnalités indispensables aux besoins de ces acteurs spécifiques.
 { .alert .alert-warning }
 
-#### Vente en marque blanche
+## Vente en marque blanche
 
 Afin de permettre la mise à disposition de la solution à ses clients finaux en nécessitant le moins d'intégration possible, l'interface d'`Ugloo` peut être configurée aux couleurs de votre entreprise.
 
-#### Multi-tenancy / comptes de service
+## Multi-tenancy / comptes de service
 
 Les _Cloud Service Providers_ ont ce besoin particulier de :
 
@@ -34,7 +34,7 @@ Les _Cloud Service Providers_ ont ce besoin particulier de :
 Pour cela, `Ugloo` propose une implémentation où chaque client dispose de son **_tenant_ dédié** et techniquement **isolé** des autres _tenants_.  
 Des comptes de service permettent de manipuler chaque _tenant_ de manière isolée.
 
-#### Facturation à la consommation
+## Facturation à la consommation
 
 Les dernières fonctionnalités d'**observabilité enrichie** permettent de suivre de manière très fine les usages et consommations de chaque utilisateur, de chaque _tenant_ :
 
@@ -46,6 +46,6 @@ Les dernières fonctionnalités d'**observabilité enrichie** permettent de suiv
   
 Ces métriques détaillées permettent à chaque _Cloud Service Provider_ de construire son modèle de refacturation comme il le souhaite.
 
-#### Tarification en mode souscription (_OPEX_) ou en mode acquisition (_CAPEX_)
+## Tarification en mode souscription (_OPEX_) ou en mode acquisition (_CAPEX_)
 
 De l'autre côté, en tant que client de la solution `Ugloo`, le _Cloud Service Provider_ peut choisir d'être facturé en mode souscription (_OPEX_) ou en mode acquisition (_CAPEX_), afin d'optimiser au mieux sa stratégie commerciale et sa propre trésorerie (cf. [Stratégie de commercialisation](../sale-strategy)).
