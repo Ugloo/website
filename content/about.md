@@ -1,8 +1,11 @@
 ---
 title: "La société"
 draft: false
-images: ["images/offices.png","images/ulgoo-team.jpg","images/Universite_de_Picardie_logo.svg","images/wavestone-innovation-radar-2023.png"]
+images: ["images/object-storage-polar-bear.jpg", "images/offices.png","images/ulgoo-team.jpg","images/Universite_de_Picardie_logo.svg","images/wavestone-innovation-radar-2023.png"]
 ---
+
+![Ours polaire-stockage objet](images/object-storage-polar-bear.jpg "[img]Ours polaire-stockage objet")
+{ .col-md-6 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 } 
 
 # La société Ugloo et ses amis
 
