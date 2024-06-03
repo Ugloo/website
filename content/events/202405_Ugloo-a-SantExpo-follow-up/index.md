@@ -1,5 +1,5 @@
 ---
-title: "Ugloo présent à SantExpo auprès d'HexaTrust et Rubrik"
+title: "Ugloo et Rubrik avec HexaTrust à SantExpo 2024"
 description: "Ugloo tiendra un stand conjoint avec Hexatrust et Rubrik, à l'évènement SantExpo du 📆 21-23 mai 2024 à la Porte de Versailles."
 date: 2024-05-23T00:00:00
 draft: false
