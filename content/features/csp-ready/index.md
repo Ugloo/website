@@ -13,7 +13,7 @@ noindex: false
 ---
 
 ![Cloud Service Provider](freepik-saas-concept-collage.jpg "Cloud Service Provider")
-{ .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
+{ .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
 
 L'équipe `Ugloo` s'est rapprochée des plusieurs _Cloud Service Providers_ 🇫🇷  
 pour enrichir la solution des fonctionnalités indispensables aux besoins de ces acteurs spécifiques.

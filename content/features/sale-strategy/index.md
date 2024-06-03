@@ -13,7 +13,7 @@ noindex: false
 ---
 
 ![Sale strategy](iStock-1385970223.jpg "Sale strategy")
-{ .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
+{ .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
 
 Versatile dans ses utilisations, Ugloo l'est aussi dans ses modes de commercialisation.
 { .alert .alert-warning }

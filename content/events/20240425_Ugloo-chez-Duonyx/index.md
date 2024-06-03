@@ -13,7 +13,7 @@ noindex: false
 # Présentation des nouvelles fonctionnalités et de la roadmap 2024
 
 ![L'équipe Ugloo à Paris](IMG_6554.jpeg)
-{ .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
+{ .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
 
 > 💡 Pour une fois, c’est une partie de l’équipe **Ugloo** qui est descendue à Paris.  
 > Encore un bon moment passé ensemble et une journée très instructive 🙂

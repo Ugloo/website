@@ -13,7 +13,7 @@ noindex: false
 ---
 
 ![Stockage objet compatible AWS S3](Amazon-S3-logo.png "Logo Amazon S3")
-{ .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
+{ .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
 
 Basé sur un _fork_ de [MinIO](https://min.io/), `Ugloo` est pleinement compatible avec les _API_ d'`AWS S3`.  
 `Ugloo` peut donc servir de stockage à toute application tirant parti d'un stockage objet S3.
@@ -35,5 +35,5 @@ Pour un objet donné, on peut donc accéder à /supprimer une version spécifiqu
 `Ugloo` supporte les _locks_ `S3` natifs pour mettre en place des délais de conservation réglementaire.
 
 ![Locks Amazon S3](S3-lock.png "Locks Amazon S3")
-{ .col-md-10 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
+{ .col-md-10 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
 

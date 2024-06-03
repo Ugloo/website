@@ -13,7 +13,7 @@ noindex: false
 # Ugloo présent à SantExpo auprès d'HexaTrust et Rubrik
 
 ![SantExpo 2024](SantExpo-2024.jpg)
-{ .col-md-6 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
+{ .col-md-6 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
 
 
 💡 L’équipe d’Ugloo sera présente sur un stand conjoint avec **Hexatrust** (Porte de Versailles-`Hall 7.2 - M10`) à l’évènement **SantExpo** du 📆 21 au 23 mai 🚀.  

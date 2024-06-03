@@ -13,7 +13,7 @@ noindex: false
 ---
 
 ![Logos de solutions de sauvegarde compatibles Veeam / Rubrik / Atempo / ComVault](rubrik-atempo-veeam-logos.png "Logos Veeam / Rubrik / Atempo / ComVault")
-{ .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
+{ .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
 
 
 `Ugloo` étant compatible avec les _API_ d'`AWS S3`, il peut servir de _backend_ de stockage aux principales solutions de sauvegarde et d'archivage du marché.

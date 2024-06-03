@@ -13,7 +13,7 @@ noindex: false
 ---
 
 ![Imagerie médicale PACS](PACS-imaging.png "Une radio médicale d'un cerveau humain")
-{ .col-md-4 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
+{ .col-md-4 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
 
 
 [DICOM](https://fr.wikipedia.org/wiki/Digital_imaging_and_communications_in_medicine) est un format de fichier et un protocole de communication destinés à gérer les données numériques issues de l'imagerie médicale ([PACS](https://fr.wikipedia.org/wiki/Picture_archiving_and_communication_system)).
