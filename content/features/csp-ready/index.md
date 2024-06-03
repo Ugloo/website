@@ -48,4 +48,4 @@ Ces métriques détaillées permettent à chaque _Cloud Service Provider_ de con
 
 #### Tarification en mode souscription (_OPEX_) ou en mode acquisition (_CAPEX_)
 
-De l'autre côté, en tant que client de la solution `Ugloo`, le _Cloud Service Provider_ peut choisir d'être facturé en mode souscription (_OPEX_) ou en mode acquisition (_CAPEX_), afin d'optimiser au mieux sa stratégie commerciale et sa propre trésorerie.
+De l'autre côté, en tant que client de la solution `Ugloo`, le _Cloud Service Provider_ peut choisir d'être facturé en mode souscription (_OPEX_) ou en mode acquisition (_CAPEX_), afin d'optimiser au mieux sa stratégie commerciale et sa propre trésorerie (cf. [Stratégie de commercialisation](../sale-strategy)).
