@@ -1,10 +1,10 @@
 ---
 title: "Observabilité"
 # La description est utilisée comme résumé dans le digest de la homepage
-description: "Basé sur un fork de MinIO, Ugloo est un stockage objet distribué pleinement compatible avec les API d'AWS S3."
+description: "Ugloo a renforcé son harnais d'observabilité, pour offrir la meilleure visibilité et permettre la meilleure gestion de l'activité de la solution."
 date: 2024-05-13T13:00:44+01:00
 draft: false
-images: ["Amazon-S3-logo.png","S3-lock.png"]
+images: ["grafana_dash.webp"]
 categories: ["features"]
 tags: ["elastic"]
 keywords: ["S3","Amazon","MinIO","elastic"]
@@ -12,31 +12,37 @@ authors: ["Ludovic Piot"]
 noindex: false
 ---
 
-![Stockage objet compatible AWS S3](Amazon-S3-logo.png "Logo Amazon S3")
-{ .img-fluid }
+![Screenshot metrics](grafana_dash.webp "[img]Screenshot metrics")
+{ .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
 
-> Basé sur un _fork_ de [MinIO](https://min.io/), `Ugloo` est pleinement compatible avec les _API_ d'`AWS S3`.  
-> `Ugloo` peut donc servir de stockage à toute application tirant parti d'un stockage objet S3.
+`Ugloo` a considérablement renforcé son harnais d'observabilité au 1er trimestre 2024.  
+Pour offrir la meilleure visibilité et permettre la meilleure gestion de l'activité de la solution.
+{ .alert .alert-warning }
 
-#### Audit / Analytique
+## Métriques et alertes
 
-Journalisation des évènements S3 pour chaque tenant.
-Surveillance de l’état de santé du cluster via GUI ou API.
-Paramétrage d’alertes sur les différentes métriques disponibles. 
+![icône Audit](audit-icon.png "[img]icône Audit")
+{ .col-md-2 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
 
+- Métriques sur le _cluster_ et ses opérations
+- Représentation graphique de ces métriques
+- Utilisation du modèle de données `Prometheus` pour des analyses historiques
+- Possibilité d'intégration avec divers outils de surveillance tiers
+- Paramétrage d’alertes sur les différentes métriques disponibles. 
 
-`Ugloo` tire pleinement parti des capacités de stockage élastique nativement fournie par la technologie de stockage objet.  
-Dans le détail, il présente [les mêmes limites de l'API S3 que MinIO](https://github.com/minio/minio/blob/master/docs/minio-limits.md#limits-of-s3-api).
+## Journalisation
 
-* nombre max d'objets dans un _bucket_ : illimité
-* taille max d'un objet : 5 To
-* taille max d'un objet multi-part : 50 To
+![icône Logs](logs.png "[img]icône Logs")
+{ .col-md-2 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
 
-#### Gestion de versions et cycle de vie
+- Journalisation des évènements `S3` pour chaque _tenant_.
+- Prise en charge de la publication des journaux serveur et d'audit vers un _Webhook_
+- Les journaux d'audit offrent une vue granulaire des opérations, répondant aux exigences de sécurité et de conformité.
 
-`Ugloo` supporte nativement la gestion de multiples versions (immuables) d'un même objet `S3`.  
-Pour un objet donné, on peut donc accéder à /supprimer une version spécifique, et gérer la configuration d'un délai d'expiration pour chaque version spécifique.
-`Ugloo` supporte les _locks_ `S3` natifs pour mettre en place des délais de conservation réglementaire.
+## Contrôle de santé
 
-![Locks Amazon S3](S3-lock.png "Locks Amazon S3").
+![icône Healthchecks](healthchecks.png "[img]icône Healthchecks")
+{ .col-md-2 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
 
+- Sonde permanente renvoyant un code d’état simplifiant les vérifications de santé des nœuds et la haute disponibilité du cluster.
+- Facilité d'utilisation de l'_API_ de contrôle de santé pour surveiller la stabilité du _cluster_.
