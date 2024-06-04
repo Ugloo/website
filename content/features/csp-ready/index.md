@@ -1,7 +1,7 @@
 ---
 title: "Solution adaptée aux besoins des Cloud Service Providers"
 # La description est utilisée comme résumé dans le digest de la homepage
-description: "Versatile dans ses utilisations, Ugloo l'est aussi dans ses modes de commercialisation."
+description: "Ugloo s'est rapproché de CSP 🇫🇷 et fourni les fonctionnalités indispensables à leur usage"
 date: 2024-05-30T17:20:00+01:00
 draft: false
 images: ["freepik-saas-concept-collage.jpg"]
@@ -44,7 +44,7 @@ Les dernières fonctionnalités d'**observabilité enrichie** permettent de suiv
 - d'objets,
 - de mutations sur les objets…  
   
-Ces métriques détaillées permettent à chaque _Cloud Service Provider_ de construire son modèle de refacturation comme il le souhaite.
+Ces métriques détaillées permettent à chaque _Cloud Service Provider_ de construire son modèle de refacturation comme il le souhaite  (cf. [Observabilité](../observability)).
 
 ## Tarification en mode souscription (_OPEX_) ou en mode acquisition (_CAPEX_)
 

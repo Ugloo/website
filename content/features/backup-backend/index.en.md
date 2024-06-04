@@ -1,27 +1,26 @@
 ---
-title: "Backend de stockage pour solutions de sauvegarde"
-# La description est utilisée comme résumé dans le digest de la homepage
-description: "Veeam, Comvault, Rubrik, Atempo : Ugloo est certifié pour servir de backend de stockage aux principales solutions de sauvegarde et d'archivage du marché."
+title: "Storage backend for backup software"
+# Description is used as a summary in the homepage digest
+description: "Veeam, Comvault, Rubrik, Atempo : Ugloo is certified as an S3 backend storage for the main backup and archiving software on the market."
 date: 2024-04-25T13:00:44+01:00
 draft: false
 images: ["backup-software-logos.png"]
 categories: ["features"]
 tags: ["backup","certifications"]
-keywords: ["Commvault","Rubik","Atempo","Miria","Tina", "Lina", "Veeam", "backup", "archivage", "certification", "validation"]
+keywords: ["Commvault","Rubik","Atempo","Miria","Tina", "Lina", "Veeam", "backup", "archive", "certification", "validation"]
 authors: ["Ludovic Piot"]
 noindex: false
 ---
 
-![Logos de solutions de sauvegarde compatibles Veeam / Rubrik / Atempo / ComVault](backup-software-logos.png "Logos Veeam / Rubrik / Atempo / ComVault")
+![Veeam / Rubrik / Atempo / ComVault logos](backup-software-logos.png "Veeam / Rubrik / Atempo / ComVault logos")
 { .col-md-8 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
 
-
-`Ugloo` étant compatible avec les _API_ d'`AWS S3`, il peut servir de _backend_ de stockage aux principales solutions de sauvegarde et d'archivage du marché.  
-En 2023, `Ugloo` a été qualifié selon les protocoles de validation et de certification des solutions suivantes…
+Since `Ugloo` is compatible with the `AWS S3` _API_, it can serve as a storage _backend_ for the main backup and archiving software on the market.  
+In 2023, `Ugloo` qualified according to the validation and certification protocols of the following solutions…
 { .alert .alert-warning }
 
 
-# Intégration avec Veeam
+# Veeam integration
 
 * [Veeam Object Repository](https://helpcenter.veeam.com/docs/backup/vsphere/object_storage_repository.html?ver=120), compatible avec [Veeam SOSAPI](https://helpcenter.veeam.com/docs/backup/vsphere/sosapi.html?ver=120)
 
@@ -33,7 +32,7 @@ En 2023, `Ugloo` a été qualifié selon les protocoles de validation et de cert
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EpFeAsRSDQY?si=tmuYmmCXvA4Ck84Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Intégration avec Rubrik
+# Rubrik integration
 { .mt-4 }
 
 * [Rubrik Archival Location](https://docs.rubrik.com/en-us/saas/saas/arch_dc_archival_location_details.html)
@@ -44,10 +43,10 @@ En 2023, `Ugloo` a été qualifié selon les protocoles de validation et de cert
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q6Yac0K8bts?si=i5Y_7vYIjPNj830G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Intégration avec Atempo Miria, Tina et Lina
+# Atempo integration with Miria, Tina and Lina
 { .mt-4 }
 
-* `Atempo` Repository S3, compatible avec [Miria](https://www.atempo.com/fr/produits/miria-sauvegarde-et-migration-de-stockages-de-fichiers-de-grands-volumes/), [Tina](https://www.atempo.com/fr/produits/tina-atempo-time-navigator-sauvegarde-d-entreprise-complete/) et [Lina](https://www.atempo.com/fr/produits/lina-sauvegarde-des-postes-fixes-et-portables-2/)
+* `Atempo` Repository S3, compatible with [Miria](https://www.atempo.com/products/miria-backup-and-migration-for-large-file-storages-3/), [Tina](https://www.atempo.com/products/tina-time-navigator-enterprise-solution-for-backup-and-recovery-2/) et [Lina](https://www.atempo.com/products/lina-live-navigator-backup-workstations-laptops/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ecHhm0sk_tE?si=etwUc2efDh22XjOR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

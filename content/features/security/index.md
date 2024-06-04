@@ -13,7 +13,7 @@ noindex: false
 ---
 
 ![Un verrou sur les données](kaffeebart-KrPulSdUetk-unsplash.jpg "Un verrou sur les données")
-{ .col-md-6 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
+{ .col-md-6 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
 
 
 `Ugloo` a l'ambition de vous proposer un **stockage indestructible**  

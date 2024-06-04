@@ -7,7 +7,7 @@ draft: false
 images: ["grafana_dash.webp"]
 categories: ["features"]
 tags: ["elastic"]
-keywords: ["S3","Amazon","MinIO","elastic"]
+keywords: ["Observability","metrics","Prometheus","logs", "audit"]
 authors: ["Ludovic Piot"]
 noindex: false
 ---
