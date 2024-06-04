@@ -1,0 +1,84 @@
+{{ define "main" }}
+
+<div class="container py-3">
+
+    {{ if or .Site.Params.options.listCategoryFilter .Site.Params.options.listTagFilter }}
+        <div class="row mb-3">
+
+            <!-- {{ if .Site.Params.options.listCategoryFilter }}
+                <div class="col-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="feather me-2"><use href="{{ `images/feather/feather-sprite.svg#folder` | relURL }}"/></svg>
+                    {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+                        <a class="badge text-bg-light nav-link" href="{{.Permalink}}">{{.Title}}</a>&nbsp;
+                    {{end}}
+                </div>
+            {{ end }} -->
+
+            <!-- {{ if .Site.Params.options.listTagFilter }}
+                <div class="col-auto">                    
+                    <svg xmlns="http://www.w3.org/2000/svg" class="feather me-2"><use href="{{ `images/feather/feather-sprite.svg#tag` | relURL }}"/></svg>
+                    {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+                    <a class="badge text-bg-light nav-link" href="{{.Permalink}}">{{.Title}}</a>&nbsp;
+                    {{end}}
+                </div>
+                {{ end }} -->
+                
+            </div>
+            {{ end }}
+            
+            <div class="container-xxl col-md-10 mx-auto text-center my-3">
+        <img class="container-xxl d-block mx-auto" src="{{ `images/Ugloo-sumup-schema.png` | relURL }}" alt="Summary diagram of the product">
+        <div class="alert alert-warning"><code>Ugloo</code> is an <code>AWS S3</code> compatible <b>object storage</b> solution, originally based on a <i>fork</i> of <code>MinIO</code>, and integrating the <code>BitTorrent</code> protocol. The product has evolved since then to best respond to the specific usages of customers.<br>
+            Find a description of its main features here.
+        </div>
+    </div>
+      
+    {{ if ne .Kind "taxonomy" }}
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            {{ range (where (.Site.RegularPages.ByParam "date").Reverse "Section" "features" ) }}
+                <div class="col">
+        
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a class="stretched-link text-primary text-decoration-none text-ugloofontfamily text-ugloocolor" href="{{ .Permalink }}">
+                                    {{ .Title }}
+                                </a>
+                            </h4>
+                                <!--
+                                {{ with .Params.authors }}
+                                    <p class="card-subtitle text-muted">
+                                        by {{ index . 0 }}
+                                    </p>
+                                {{ end }}
+                                -->
+                                <div class="d-flex align-items-center">
+                                    {{ if isset .Params "images" }}
+                                        {{ with .Resources.GetMatch (index .Params.Images 0) }}
+                                            {{ $image := .Fill "600x300 Center webp" }}
+                                            <img class="img-fluid rounded p-1" src="{{ $image.Permalink }}" loading="lazy" width="{{ $image.Width }}" height="{{ $image.Height }}"/>
+                                        {{ end }}
+                                    {{ end }}
+                                </div>
+                                <p class="card-text mt-3">
+                                    {{ with .Params.description }}
+                                    {{ . }}
+                                    {{ else }}
+                                    {{ .Summary | truncate 200 }}
+                                    {{ end }}
+                                </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">{{ .Date | time.Format ":date_long" }}</small>
+                        </div>
+                    </div>
+         
+                </div>
+            {{ end }}
+        
+        </div>
+
+    {{ end }}
+
+</div>
+{{ end }}

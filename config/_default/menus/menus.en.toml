@@ -2,14 +2,15 @@
 name = "The Company"
 url = "about"
 weight = 10
-# title = "Made with ❤️ by the Hugo Bootstrap Theme team"
+title = "Welcome at Ugloo office"
 
 # ----- Submenu NEEDS
-[[main]]
-identifier = "data needs"
-name = "An answer to data needs"
-url = "data needs"
-weight = 20
+# TODO: create a page about DATA needs?
+# [[main]]
+# identifier = "data needs"
+# name = "An answer to data needs"
+# url = "data needs"
+# weight = 20
 
 # ----- Submenu PROS
 [[main]]
@@ -17,81 +18,57 @@ identifier = "pros"
 name = "Pros"
 url = "pros"
 weight = 30
-
-# ----- Sous-menu Pages
-[[main]]
-identifier = "pages"
-name = "TEST-Pages"
-url = "page"
-weight = 42
+title="Learn more about most pros of Ugloo software"
 
 # ----- Submenu FEATURES
 [[main]]
 identifier = "features"
 name = "Features"
-url = "feature"
+url = "features"
 weight = 40
-
-[[main]]
-name = "elastic"
-url = "tags/elastic-storage"
-weight = 42
-parent = "features"
-
-[[main]]
-name = "resilient"
-url = "tags/resilient"
-weight = 44
-parent = "features"
-
-[[main]]
-name = "distributed"
-url = "tags/distributed"
-weight = 46
-parent = "features"
-
-[[main]]
-name = "secure"
-url = "tags/secure"
-weight = 48
-parent = "features"
+title="Learn more details about Ugloo main features"
 
 # ----- Submenu EVENTS
 [[main]]
 identifier = "events"
 name = "Events & press"
-url = "tags/events"
+url = "events"
 weight = 50
+title="Read latest news about Ugloo"
 
 # ----- Submenu BLOG
-[[main]]
-identifier = "blog"
-name = "Posts"
-weight = 60
-
-[[main]]
-name = "Tech posts"
-url = "tags/tech"
-weight = 62
-parent = "blog"
-
-[[main]]
-name = "All"
-url = "post"
-weight = 100
-parent = "blog"
+# TODO: create a BLOG section
+# [[main]]
+# identifier = "blog"
+# name = "Posts"
+# weight = 60
 
 # ----- Submenu SOCIAL
 [[social]]
-  name = "GitHub"
-  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/hugo-bootstrap-theme/images/feather/feather-sprite.svg#github'/></svg>"
-  url = "https://github.com/filipecarneiro/hugo-bootstrap-theme/"
+[[social]]
+  name = "LinkedIn - Ugloo"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/images/feather/feather-sprite.svg#linkedin'/></svg>"
+  url = "https://www.linkedin.com/company/ugloo/posts/?feedView=all"
   weight = 10
-  title = "Visit the GitHub project"
+  title = "Ugloo's LinkedIn page"
 
 [[social]]
-  name = "Twitter"
-  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-twitter'><use href='/hugo-bootstrap-theme/images/feather/feather-sprite.svg#twitter'/></svg>"
-  url = "https://twitter.com/jfilipecarneiro/"
+  name = "GitHub"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-twitter'><use href='/images/feather/feather-sprite.svg#github'/></svg>"
+  url = "https://github.com/ugloo"
   weight = 20
-  title = "Contact on Twitter/X"
+  title = "Github organisation"
+
+[[social]]
+  name = "LinkedIn - Gonzague"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/images/feather/feather-sprite.svg#linkedin'/></svg>"
+  url = "https://www.linkedin.com/in/gonzaguedupont/recent-activity/all/"
+  weight = 30
+  title = "Gonzague Dupont's LinkedIn page"
+
+[[social]]
+  name = "Gitlab"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/images/feather/feather-sprite.svg#gitlab'/></svg>"
+  url = "https://git.deeptorrent.io"
+  weight = 40
+  title = "GitLab server"
