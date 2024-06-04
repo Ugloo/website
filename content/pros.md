@@ -58,7 +58,10 @@ Grace à son architecture **exclusive et brevetée**, `Ugloo` a pour objectif de
 ![Adaptabilité](images/noun-pocket-knife-2878616.png "[img]Adaptabilité")
 { .col-md-2 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
 
-`Ugloo` est une solution logicielle qui se satisfait de tout commodity hardware… On-premises, dans le Cloud, ou même sur votre parc de postes de travail.
+`Ugloo` est une solution logicielle versatile, qui sait s'appuyer sur une infrastructure hétérogène de type _commodity hardware_.  
+Que ce soit _On-premises_, dans le _Cloud_, chez un hébergeur plus ou moins traditionnel, ou même sur votre parc de postes de travail.  
+Que ce soit sur des machines physiques, des _VMs_, ou sur une plateforme de _containers_.  
+`Ugloo` sait répondre présent face à **tout besoin de stockage objet**.
 { .alert .alert-warning }
 
 - **Intégration backup** – solution certifiée `Commvault` / `Rubrik` / `Veeam` (Veeam Ready, SOS API), `Atempo` (Miria, TINA). [En savoir plus…](/features/backup-backend/)

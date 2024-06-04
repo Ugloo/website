@@ -9,7 +9,7 @@ images: ["images/object-storage-polar-bear.jpg", "images/offices.png","images/ul
 
 # La société Ugloo et ses amis
 
-**Ugloo** est un éditeur 🇫🇷français de solution de stockage secondaire hautement sécurisée contre les _RansomWares_ (_Software Define Storage_). 
+**Ugloo** est l'éditeur 🇫🇷français d'une solution de stockage secondaire hautement sécurisée contre les _RansomWares_ (_Software Define Storage_). 
 
 ![localisation des bureaux](images/offices.png "[img]Localisation des bureaux")
 { .col-md-4 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }

@@ -36,4 +36,3 @@ Pour un objet donné, on peut donc accéder à /supprimer une version spécifiqu
 
 ![Locks Amazon S3](S3-lock.png "Locks Amazon S3")
 { .col-md-10 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 }
-
