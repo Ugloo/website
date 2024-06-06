@@ -37,7 +37,7 @@ Grace à son architecture **exclusive et brevetée**, `Ugloo` a pour objectif de
 - **GeoCluster** – résiste à la perte d’une région / un hébergeur
 - **Permanent checking** – vérification et reconstruction permanentes de la donnée
 
-[En savoir plus…](/features/security/)
+[En savoir plus…](../features/security/)
 
 ## Mise en œuvre simplifiée !
 
