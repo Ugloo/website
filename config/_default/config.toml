@@ -1,6 +1,5 @@
-# FIXME: baseURL n'est pas pris en compte pour les images des posts
 # baseURL is used to build the full URL path of Web links
-baseURL = 'https://ugloo.github.io/website/'
+baseURL = 'https://www.ugloo.fr'
 title = "Ugloo"
 author = "Ludovic Piot"
 copyright = "©2024, Ugloo."

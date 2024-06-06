@@ -1,0 +1,55 @@
+banner:
+  enable: true
+  image: "images/qBgDNmPmkJjwYH3Kdk8TEj.jpg"
+  contents: "**Ugloo:** _Solution de stockage distribué compatible [S3](https://www.google.com) pour vos sauvegardes et archivages_"
+  button:
+    contents: "Présentation vidéo"
+    url: "https://youtu.be/annrFY8c4VA"
+items:
+  - type: highlights
+    items_per_row: 3
+    items:
+    - title: Plus économique
+      icon: fa-euro-sign
+      content: >
+        En revalorisant vos espaces disponibles et en optimisant **jusqu’à 80%** du stockage de vos données, Ugloo réduit considérablement vos coûts de stockage.
+    - title: Gouvernance à votre main
+      icon: fa-crown
+      content: >
+        Vos données (fragments et redondance) sont stockées exclusivement dans votre infrastructure, qu'elle soit dans vos datacenters, chez un ou des fournisseurs de Cloud public, ou hybride.
+    - title: Simplicité
+      icon: fa-euro-sign
+      content: >
+        Grâce à ses API, Ugloo se connecte simplement à vos logiciels existants et se manage simplement avec son interface centralisée.
+  - type: heading
+    heading: Stockage S3 élastique, sécurisé, simple d'emploi et à votre main
+    contents: 👥 _Multi-tenant_ • déployable dans le ☁️ _Cloud_ et/ou vos 🏭 _datacenters_ • résilient • 🪨 immuable <img src="https://t3.ftcdn.net/jpg/00/92/53/56/360_F_92535664_IvFsQeHjBzfE6sD4VHdO8u5OHUSc6yHF.jpg">
+    image: "images/qBgDNmPmkJjwYH3Kdk8TEj.jpg"
+  - type: highlights
+    items_per_row: 4
+    items:
+    - title: Stockage distribué DeepTorrent
+      icon: fa-atom
+      content: >
+        Avec sa technologie brevetée **DeepTorrent**, **Ugloo** décentralise à 100% le stockage de vos données sur vos infrastructures existantes.
+    - title: Sécurité
+      icon: fa-lock
+      content: >
+        Après chiffrement, vos fichiers sont fragmentés afin de vous garantir un niveau de sécurité inégalable.
+    - title: Pérénité
+      icon: fa-infinity
+      content: >
+        La redondance et la reconstruction automatique des fragments en cas de perte vous apportent une garantie à vie de vos données.
+    - title: Élasticité
+      icon: fa-link
+      content: >
+        Les fragments de vos données sont distribués sur l'ensemble des nœuds… quelque soit le nombre de nœuds !
+  - type: posts
+    heading: On fait parler de nous !
+    content_type: posts
+    max: 4
+  - type: cta
+    contents: Envie d'en savoir plus ?
+    button:
+      contents: Téléchargez notre livre blanc
+      url: "#"
