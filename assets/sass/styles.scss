@@ -84,6 +84,14 @@
     }
 }
 
+b, code, strong {
+    color: var(--bd-ugloocolor) !important;
+}
+
+b, strong {
+    font-family: "Montserrat","Helvetica","Arial",sans-serif;
+}
+
 // ----------------------------------------------------------------------------
 // Styles for single pages
 .py-3 {
