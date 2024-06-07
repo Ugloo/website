@@ -48,7 +48,7 @@ Data is encrypted when its written in the _cluster_.
 # Double immutability
 
 _Cryptolocking ransomware_ is no match for the data stored in `Ugloo`. Each version of an object has double immutability:
-* at the `S3` object configuration level through [the _lock_ modes and the retention periods.](#version-management-and-life-cycle)
+* at the `S3` object configuration level through [the _lock_ modes and the retention periods.](../aws-s3-compatibility)
 * at the `DeepTorrent` fragments level, which are natively immutable
   * with configurable regulatory retention period
   * and recoverable trash

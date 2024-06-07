@@ -49,7 +49,7 @@ Les données sont chiffrées à l'écriture sur le _cluster_.
 # Double immutabilité
 
 Les _ransomwares_ par _cryptolocking_ n'ont pas de prise sur la donnée stockée dans `Ugloo`. Chaque version d'un objet présente une double immuabilité :
-* au niveau de la configuration de l'objet `S3` à travers [les modes de _lock_ et les délais de rétention.](#gestion-de-versions-et-cycle-de-vie)
+* au niveau de la configuration de l'objet `S3` à travers [les modes de _lock_ et les délais de rétention.](../aws-s3-compatibility/)
 * au niveau des fragments `DeepTorrent`, qui sont nativement immuables
   * avec délai de rétention réglementaire configurable
   * et corbeille récupérable 
