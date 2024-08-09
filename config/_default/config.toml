@@ -27,7 +27,8 @@ enableEmoji = true
 
 [taxonomies]
   tag = "tags"
-  category = "categories"
+  category    = "categories"
+  feature-tag = "feature-tags"
   # feature = "features"
   # event = "events"
   # series = "series"

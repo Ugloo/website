@@ -5,9 +5,7 @@ description: "Ugloo a développé DeepTorrent, une technologie brevetée de stoc
 date: 2024-05-13T13:00:44+01:00
 draft: false
 images: ["DeepTorrent-icon.png"]
-categories: ["features"]
-tags: ["deeptorrent"]
-keywords: ["DeepTorrent","BitTorrent","distributed","peer-to-peer","resilient"]
+feature-tags: ["DeepTorrent","BitTorrent","distributed","peer-to-peer","resilient"]
 authors: ["Ludovic Piot"]
 noindex: false
 ---

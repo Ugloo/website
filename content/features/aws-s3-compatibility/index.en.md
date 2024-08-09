@@ -5,9 +5,7 @@ description: "Based on a fork of MinIO, Ugloo is a distributed object storage fu
 date: 2022-05-13T13:00:44+01:00
 draft: false
 images: ["Amazon-S3-logo.png","S3-lock.png"]
-categories: ["features"]
-tags: ["elastic"]
-keywords: ["S3","Amazon","MinIO","elastic"]
+feature-tags: ["S3","Amazon","MinIO","elastic"]
 authors: ["Ludovic Piot"]
 noindex: false
 ---
