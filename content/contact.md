@@ -13,4 +13,6 @@ Vous pouvez nous joindre sur les réseaux sociaux.
 
 - LinkedIn : https://www.linkedin.com/company/ugloo
 
+<!-- FIXME: why is e-mail trick broken?! -->
 ou par e-mail : [contact@ugloo.com](mailto:contact@ugloo.com)
+ou par e-mail : {{% email user="contact" domain="example.com" class="cool-link" %}}
