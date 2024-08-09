@@ -49,13 +49,19 @@ title = "Les dernières nouvelles autour d'Ugloo"
 # weight = 80
 # title = "Téléchargez notre livre blanc"
 
-[[main]]
-name = "Contact"
-url = "contact"
-weight = 90
-title = "Bienvenue au sein des locaux Ugloo"
-
 # ----- Sous-menu SOCIAL
+
+[[social]]
+  name = "Contact"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-mail'><use href='images/feather/feather-sprite.svg#mail'/></svg>"
+  url = "contact"
+  weight = 5
+  title = "Nous contacter…"
+
+[[social]]
+  name = "Buffer1"
+  weight = 6
+
 [[social]]
   name = "LinkedIn - Ugloo"
   pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='images/feather/feather-sprite.svg#linkedin'/></svg>"
