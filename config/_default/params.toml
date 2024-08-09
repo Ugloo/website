@@ -29,3 +29,4 @@ footerAboutText = "We protect your website so you can provide a safe environment
   breadCrumb = true
   listCategoryFilter = true
   listTagFilter = true
+  listFeatureTagFilter = true

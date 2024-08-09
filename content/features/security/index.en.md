@@ -5,9 +5,7 @@ description: "Ugloo offers indestructible storage: resilient, multi-site, encryp
 date: 2024-05-13T13:00:44+01:00
 draft: false
 images: ["SSE-encryption.png"]
-categories: ["features"]
-tags: ["deeptorrent"]
-keywords: ["DeepTorrent","BitTorrent","distributed","peer-to-peer","resilient"]
+feature-tags: ["DeepTorrent","BitTorrent","distributed","peer-to-peer","resilient"]
 authors: ["Ludovic Piot"]
 noindex: false
 ---

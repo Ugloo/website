@@ -5,9 +5,7 @@ description: "Veeam, Comvault, Rubrik, Atempo : Ugloo est certifié pour servir
 date: 2024-04-25T13:00:44+01:00
 draft: false
 images: ["backup-software-logos.png"]
-categories: ["features"]
-tags: ["backup","certifications"]
-keywords: ["Commvault","Rubik","Atempo","Miria","Tina", "Lina", "Veeam", "backup", "archivage", "certification", "validation"]
+feature-tags: ["Commvault","Rubik","Atempo","Miria","Tina", "Lina", "Veeam", "backup", "archivage", "certification", "validation"]
 authors: ["Ludovic Piot"]
 noindex: false
 ---

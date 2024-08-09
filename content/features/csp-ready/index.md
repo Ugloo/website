@@ -5,9 +5,7 @@ description: "Ugloo s'est rapproché de CSP 🇫🇷 et fourni les fonctionnalit
 date: 2024-05-30T17:20:00+01:00
 draft: false
 images: ["freepik-saas-concept-collage.jpg"]
-categories: ["features"]
-tags: []
-keywords: []
+feature-tags: ["multi-tenant","service account","subscription","OPEX","CAPEX","CSP-friendly"]
 authors: ["Ludovic Piot"]
 noindex: false
 ---

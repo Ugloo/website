@@ -5,9 +5,7 @@ description: "Ugloo est nativement compatible avec DICOM, le standard de l'image
 date: 2023-12-21T13:00:44+01:00
 draft: false
 images: ["PACS-imaging.png"]
-categories: ["features"]
-tags: ["compatibility"]
-keywords: ["dicom","pacs","compatibility","standards","protocols"]
+feature-tags: ["dicom","pacs","compatibility","standards","protocols"]
 authors: ["Ludovic Piot"]
 noindex: false
 ---

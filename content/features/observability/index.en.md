@@ -5,9 +5,7 @@ description: "Ugloo strengthened its observability harness, to offer the most re
 date: 2024-05-13T13:00:44+01:00
 draft: false
 images: ["grafana_dash.webp"]
-categories: ["features"]
-tags: ["elastic"]
-keywords: ["Observability","metrics","Prometheus","logs", "audit"]
+feature-tags: ["Observability","metrics","Prometheus","logs", "audit"]
 authors: ["Ludovic Piot"]
 noindex: false
 ---
