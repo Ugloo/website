@@ -1,7 +1,19 @@
+:root {
+    // TODO: complete the color scheme for dark/light OS version
+    //FIXME: blue color while clicking the menu items
+    //FIXME: menu item remains black on "ABOUT" page
+    //FIXME: Social menu items display incorrectly on every pages
+
+    // lpiot: customized
+    // --bd-purple: #4c0bce;
+    // --bd-violet: #712cf9;
+    --bd-maya-icecolor: #C1E3ED;
+    --bd-ugloocolor: #0095b6;
+    --bd-ugloocolor-rgb: 0, 149, 182;
+    --bs-nav-link-font-size: 12pt;
+}
+
 .home {
-    --bd-purple: #4c0bce;
-    --bd-violet: #712cf9;
-    --bd-ugloocolor: #4193b2;
     --bd-bkgnd: rgb(233, 230, 227);
     --bd-bkgnd-rgb: 233, 230, 227;
     --bd-accent: rgb(255, 228, 132);
@@ -35,18 +47,72 @@
     }
 }
 
-.navbar {
-    @extend .navbar-dark;
 
-    --bd-violet-rgb: 112.520718,44.062154,249.437846;
-    --bd-ugloocolor-rgb: 65, 147, 178;
+// ----------------------------------------------------------------------------
+// Styles for single pages
+
+.navbar {
+    @extend .navbar-light;
+
+    // lpiot: customized
+    // --bd-violet-rgb: 112.520718,44.062154,249.437846;
+    // --bd-ugloocolor-rgb: 65, 147, 178;
+    --bs-navbar-color: #ffffff;
+    --bs-link-hover-color: #ffffff;
+    --bs-navbar-nav-link-padding-x: 1rem;
     
     padding: .5rem 0;
-    background-color: transparent;
-    background-image: linear-gradient(to bottom, rgba(var(--bd-ugloocolor-rgb), 1), rgba(var(--bd-ugloocolor-rgb), 0.95));
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15),inset 0 -1px 0 rgba(0,0,0,0.15);
+    background-color: var(--bd-maya-icecolor);
+    // background-image: linear-gradient(to bottom, rgba(var(--bd-ugloocolor-rgb), 1), rgba(var(--bd-ugloocolor-rgb), 0.95));
+    // box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15),inset 0 -1px 0 rgba(0,0,0,0.15);
 }
 
+.navbar-brand {
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+        transform: rotate(-2deg) scale(1.3);
+    }
+}
+
+// lpiot: customized
+.nav-item {
+    display: block;
+    margin: 5px;
+    background-color: var(--bd-ugloocolor);
+    border-radius: 25px / 30px;
+    box-shadow: 0px 4px rgba(var(--bd-ugloocolor-rgb), .6);
+    font-size: 11pt;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: none;
+    }
+}
+
+.nav-item-social {
+    display: block;
+    background-color: var(--bd-ugloocolor);
+    border-radius: 25px / 30px;
+    box-shadow: 0px 4px rgba(var(--bd-ugloocolor-rgb), .6);
+    font-size: 13pt;
+    margin: 0px;
+    display: flex;
+}
+
+// lpiot: customized
+.nav-link:hover {
+    color: var(--bs-link-hover-color);
+}
+
+.me-auto {
+    margin-left: auto !important;;
+    padding-right: 2em;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
 // .text-violet {
 //     color: #6528e0;
 // }
@@ -73,14 +139,6 @@
         &:hover {
             transform: scale(1.01);
         }
-    }
-}
-
-.navbar-brand {
-    transition: transform 0.2s ease-in-out;
-
-    &:hover {
-        transform: rotate(-2deg) scale(1.1);
     }
 }
 
