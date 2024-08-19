@@ -174,16 +174,60 @@ b, strong {
 
 .py-3 h1 {
     font-family: "Montserrat","Helvetica","Arial",sans-serif;
-    background: linear-gradient(0.25turn, var(--bs-white), var(--bd-ugloocolor), var(--bs-white));
-    color: white!important;
-    text-align: center;
-    margin-bottom: 5rem;
+    font-weight: bolder;
+    font-size: 4rem;
+    background-color: var(--bd-dark-icecolor);
+    color: var(--bd-ugloocolor);
+    text-shadow: 1px 1px 3px black;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    margin-bottom: 3rem;
+}
+
+.h1b {
+    font-family: "Montserrat","Helvetica","Arial",sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    position: relative;
+    top: -6em;
+    z-index: auto;
+    background-color: var(--bd-dark-icecolor);
+    color: var(--fbc-white);
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: -6em;
+}
+
+.test-lpiot {
+    position: relative;
+    top: -6em;
+    right: 6rem;
+    margin-bottom: -6em;
 }
 
 .py-3 h2 {
     font-family: "Montserrat","Helvetica","Arial",sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px black;
+    background: linear-gradient(to bottom, var(--bs-white) 0%, 20%, var(--bd-maya-icecolor) 80%, var(--bs-white) 100%);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: var(--fbc-white)!important;
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.py-3 h3 {
+    font-family: "Montserrat","Helvetica","Arial",sans-serif;
     color: var(--bd-ugloocolor);
     margin-top: 5rem;
+}
+
+.alert-warning {
+    margin-left: 3em;
+    margin-right: 3em;
+    border-radius: .5rem;
 }
 
 // ----------------------------------------------------------------------------
