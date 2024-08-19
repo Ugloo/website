@@ -24,15 +24,15 @@
     //TODO: cleanup. Seem unused
     --bd-bkgnd: rgb(233, 230, 227);
     --bd-accent: rgb(255, 228, 132);
-    --bd-violet-rgb: 112.520718,44.062154,249.437846;
-    --bd-accent-rgb: 255,228,132;
-    --bd-pink-rgb: 214,51,132;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+    --bd-accent-rgb: 255, 228, 132;
+    --bd-pink-rgb: 214, 51, 132;
 
     .bd-masthead {
         padding: 0.1rem 0;
         background-image: radial-gradient(ellipse at center, var(--fbc-white) 0%, 30%, var(--bd-maya-icecolor) 100%);
     }
-    
+
     .bkgnd-iceblue-linear-gradient {
         background-image: linear-gradient(var(--bd-maya-icecolor) 0%, var(--fbc-white) 50%);
     }
@@ -72,15 +72,17 @@
 
 @keyframes loader {
     0% {
-      top: 0;
+        top: 0;
     }
+
     40% {
         scale: (1.2);
     }
+
     100% {
         top: -25em;
     }
-  }
+}
 
 // ----------------------------------------------------------------------------
 // Styles for single pages
@@ -91,7 +93,7 @@
     --bs-navbar-color: var(--fbc-white);
     --bs-link-hover-color: var(--bd-ugloocolor);
     --bs-navbar-nav-link-padding-x: 1rem;
-    
+
     padding: .5rem 0;
     background-color: var(--bd-maya-icecolor);
 }
@@ -125,7 +127,7 @@
     background-color: var(--bd-ugloocolor);
     border-color: var(--bd-ugloocolor);
     border-radius: 25px / 30px;
-    border-style:solid;
+    border-style: solid;
     border-width: 1px;
     box-shadow: 0px 4px rgba(var(--bd-ugloocolor-rgb), .6);
     font-size: 11pt;
@@ -150,7 +152,8 @@
 }
 
 .me-auto {
-    margin-left: auto !important;;
+    margin-left: auto !important;
+    ;
     padding-right: 2em;
 }
 
@@ -168,9 +171,10 @@ a .feather-mail:hover {
 // Styles for single pages
 
 .text-ugloofontfamily {
-    font-family: "Montserrat","Helvetica","Arial",sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     // font-weight: 500;
 }
+
 .text-ugloocolor {
     color: var(--bd-ugloocolor) !important;
 }
@@ -185,19 +189,22 @@ a .feather-mail:hover {
     }
 }
 
-b, code, strong {
+b,
+code,
+strong {
     color: var(--bd-ugloocolor) !important;
 }
 
-b, strong {
-    font-family: "Montserrat","Helvetica","Arial",sans-serif;
+b,
+strong {
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
 }
 
 // ----------------------------------------------------------------------------
 // Styles for single pages
 
 .py-3 h1 {
-    font-family: "Montserrat","Helvetica","Arial",sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-weight: bolder;
     font-size: 4rem;
     background-color: var(--bd-dark-icecolor);
@@ -209,7 +216,7 @@ b, strong {
 }
 
 .h1b {
-    font-family: "Montserrat","Helvetica","Arial",sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-weight: bolder;
     font-size: 2.5rem;
     position: relative;
@@ -230,20 +237,20 @@ b, strong {
 }
 
 .py-3 h2 {
-    font-family: "Montserrat","Helvetica","Arial",sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-weight: bolder;
     text-shadow: 1px 1px 3px black;
     background: linear-gradient(to bottom, var(--bs-white) 0%, 20%, var(--bd-maya-icecolor) 80%, var(--bs-white) 100%);
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    color: var(--fbc-white)!important;
+    color: var(--fbc-white) !important;
     text-align: center;
     margin-top: 7rem;
     margin-bottom: 3rem;
 }
 
 .py-3 h3 {
-    font-family: "Montserrat","Helvetica","Arial",sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     color: var(--bd-ugloocolor);
     margin-top: 5rem;
 }
@@ -263,7 +270,7 @@ b, strong {
 // ----------------------------------------------------------------------------
 // Styles for flickity carousel
 
-    /*! Flickity v2.3.0
+/*! Flickity v2.3.0
 https://flickity.metafizzy.co
 ---------------------------------------------- */
 .flickity-enabled {
@@ -402,7 +409,7 @@ https://flickity.metafizzy.co
 
 // Custom
 .carousel {
-//   background: var(--bd-bkgnd);
+    //   background: var(--bd-bkgnd);
 }
 
 .carousel-cell {
