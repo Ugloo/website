@@ -1,17 +1,23 @@
+// ----------------------------------------------------------------------------
+// Common variables
+
+// info: these variables are part of the adaptative design stuff be careful while changing them
+
 :root {
-    // TODO: complete the color scheme for dark/light OS version
+    //TODO: complete the color scheme for dark/light OS version
     //FIXME: blue color while clicking the menu items
     //FIXME: menu item remains black on "ABOUT" page
     //FIXME: Social menu items display incorrectly on every pages
 
-    // lpiot: customized
-    // --bd-purple: #4c0bce;
-    // --bd-violet: #712cf9;
     --bd-maya-icecolor: #C1E3ED;
     --bd-ugloocolor: #0095b6;
     --bd-ugloocolor-rgb: 0, 149, 182;
     --bs-nav-link-font-size: 12pt;
 }
+
+
+// ----------------------------------------------------------------------------
+// Home page
 
 .home {
     --bd-bkgnd: rgb(233, 230, 227);
@@ -54,17 +60,12 @@
 .navbar {
     @extend .navbar-light;
 
-    // lpiot: customized
-    // --bd-violet-rgb: 112.520718,44.062154,249.437846;
-    // --bd-ugloocolor-rgb: 65, 147, 178;
-    --bs-navbar-color: #ffffff;
-    --bs-link-hover-color: #ffffff;
+    --bs-navbar-color: var(--fbc-white);
+    --bs-link-hover-color: var(--bd-ugloocolor);
     --bs-navbar-nav-link-padding-x: 1rem;
     
     padding: .5rem 0;
     background-color: var(--bd-maya-icecolor);
-    // background-image: linear-gradient(to bottom, rgba(var(--bd-ugloocolor-rgb), 1), rgba(var(--bd-ugloocolor-rgb), 0.95));
-    // box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15),inset 0 -1px 0 rgba(0,0,0,0.15);
 }
 
 .navbar-brand {
@@ -152,9 +153,7 @@ b, strong {
 
 // ----------------------------------------------------------------------------
 // Styles for single pages
-.py-3 {
-    --bd-ugloocolor: #4193b2;
-}
+
 .py-3 h1 {
     font-family: "Montserrat","Helvetica","Arial",sans-serif;
     background: linear-gradient(0.25turn, var(--bs-white), var(--bd-ugloocolor), var(--bs-white));
