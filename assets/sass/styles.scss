@@ -57,6 +57,30 @@
     }
 }
 
+.iceberg-position {
+    position: relative;
+    //top: -25em;
+    left: 65vw;
+    margin-bottom: -35em;
+
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+        animation: loader 1.2s;
+    }
+}
+
+@keyframes loader {
+    0% {
+      top: 0;
+    }
+    40% {
+        scale: (1.2);
+    }
+    100% {
+        top: -25em;
+    }
+  }
 
 // ----------------------------------------------------------------------------
 // Styles for single pages
