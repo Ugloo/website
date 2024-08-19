@@ -10,6 +10,7 @@
     //FIXME: Social menu items display incorrectly on every pages
 
     --bd-maya-icecolor: #C1E3ED;
+    --bd-dark-icecolor: #94CADA;
     --bd-ugloocolor: #0095b6;
     --bd-ugloocolor-rgb: 0, 149, 182;
     --bs-nav-link-font-size: 12pt;
@@ -20,8 +21,8 @@
 // Home page
 
 .home {
+    //TODO: cleanup. Seem unused
     --bd-bkgnd: rgb(233, 230, 227);
-    --bd-bkgnd-rgb: 233, 230, 227;
     --bd-accent: rgb(255, 228, 132);
     --bd-violet-rgb: 112.520718,44.062154,249.437846;
     --bd-accent-rgb: 255,228,132;
@@ -29,12 +30,15 @@
 
     .bd-masthead {
         padding: 0.1rem 0;
-        background-image: linear-gradient(180deg, rgba(var(--bd-bkgnd-rgb), 0.01), rgba(var(--bd-bkgnd-rgb), 1) 85%);
-                        //url("../images/object-storage-polar-bear.jpg");
-                        //   radial-gradient(ellipse at top left, rgba(var(--bs-primary-rgb), 0.5), transparent 50%),
-                        //   radial-gradient(ellipse at top right, rgba(var(--bd-accent-rgb), 0.5), transparent 50%),
-                        //   radial-gradient(ellipse at center right, rgba(var(--bd-violet-rgb), 0.5), transparent 50%),
-                        //   radial-gradient(ellipse at center left, rgba(var(--bd-pink-rgb), 0.5), transparent 50%);
+        background-image: radial-gradient(ellipse at center, var(--fbc-white) 0%, 30%, var(--bd-maya-icecolor) 100%);
+    }
+    
+    .bkgnd-iceblue-linear-gradient {
+        background-image: linear-gradient(var(--bd-maya-icecolor) 0%, var(--fbc-white) 50%);
+    }
+
+    .bkgnd-iceblue-linear-gradient-2 {
+        background-image: linear-gradient(var(--fbc-white) 0%, 50%, var(--bd-maya-icecolor) 100%);
     }
 
     .btn-bd-primary {
@@ -76,18 +80,38 @@
     }
 }
 
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-navbar-color);
+    --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 3px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
 // lpiot: customized
 .nav-item {
     display: block;
     margin: 5px;
     background-color: var(--bd-ugloocolor);
+    border-color: var(--bd-ugloocolor);
     border-radius: 25px / 30px;
+    border-style:solid;
+    border-width: 1px;
     box-shadow: 0px 4px rgba(var(--bd-ugloocolor-rgb), .6);
     font-size: 11pt;
 
     &:hover {
         transform: scale(1.1);
         box-shadow: none;
+        color: var(--bd-ugloocolor);
+        background-color: var(--bd-maya-icecolor);
+        border-color: var(--bd-ugloocolor);
     }
 }
 
@@ -101,11 +125,6 @@
     display: flex;
 }
 
-// lpiot: customized
-.nav-link:hover {
-    color: var(--bs-link-hover-color);
-}
-
 .me-auto {
     margin-left: auto !important;;
     padding-right: 2em;
@@ -114,16 +133,15 @@
 .navbar-collapse {
     flex-grow: 0;
 }
-// .text-violet {
-//     color: #6528e0;
-// }
 
-// Used in home page titles #2
-.text-secondary {
-    font-family: "Montserrat","Helvetica","Arial",sans-serif; 
-    background: linear-gradient(0.25turn, var(--bs-white), var(--bd-ugloocolor), var(--bs-white));
-    color: white!important;
-}  
+a .feather-mail:hover {
+    stroke: #000;
+    fill: #000;
+}
+
+
+// ----------------------------------------------------------------------------
+// Styles for single pages
 
 .text-ugloofontfamily {
     font-family: "Montserrat","Helvetica","Arial",sans-serif;
