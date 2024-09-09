@@ -1,0 +1,63 @@
+main:
+  - name: La société
+    title: Bienvenue au sein des locaux Ugloo
+    pageRef: /about
+    weight: 10
+  # ----- Sous-menu NEEDS
+  - name: Une réponse aux besoins
+    identifier: data needs
+    url: data needs
+    weight: 20
+  # ----- Sous-menu PROS
+  - name: Les avantages
+    identifier: pros
+    title: Découvrez les principaux avantages de la solution
+    url: pros
+    weight: 30
+  # ----- Sous-menu FEATURES
+  - name: La solution
+    identifier: features
+    title: Détail des fonctionnalités de la solution
+    url: features
+    weight: 40
+  # ----- Sous-menu EVENTS
+  - name: On parle d'Ugloo
+    identifier: events
+    title: Les dernières nouvelles autour d'Ugloo
+    url: events
+    weight: 50
+  # TODO: ouvrir la section BLOG
+  # ----- Sous-menu BLOG
+  #   - name: Blog
+  #     identifier: blog
+  #     weight: 60
+
+# ----- Sous-menu SOCIAL
+social:
+  - name: Contact
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-mail'><use href='images/feather/feather-sprite.svg#mail'/></svg>
+    title: Nous contacter…
+    url: contact
+    weight: 5
+  - name: Buffer1
+    weight: 6
+  - name: LinkedIn - Ugloo
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-linkedin'><use href='images/feather/feather-sprite.svg#linkedin'/></svg>
+    title: Page LinkedIn d'Ugloo
+    url: https://www.linkedin.com/company/ugloo/posts/?feedView=all
+    weight: 10
+  - name: GitHub
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='images/feather/feather-sprite.svg#github'/></svg>
+    title: Compte Github
+    url: https://github.com/ugloo
+    weight: 20
+  - name: LinkedIn - Gonzague
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-linkedin'><use href='images/feather/feather-sprite.svg#linkedin'/></svg>
+    title: Page LinkedIn de Gonzague Dupont
+    url: https://www.linkedin.com/in/gonzaguedupont/recent-activity/all/
+    weight: 30
+  - name: Gitlab
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-gitlab'><use href='images/feather/feather-sprite.svg#gitlab'/></svg>
+    title: Compte GitLab
+    url: https://git.deeptorrent.io
+    weight: 40
