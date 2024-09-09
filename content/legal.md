@@ -1,6 +1,6 @@
 ---
-title: "Mentions légales"
-description: "Mentions légales"
+title: Mentions légales
+description: Mentions légales
 draft: false
 menu:
   footer:

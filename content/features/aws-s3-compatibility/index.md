@@ -1,12 +1,19 @@
 ---
-title: "Stockage objet compatible AWS S3"
+title: Stockage objet compatible AWS S3
 # La description est utilisée comme résumé dans le digest de la homepage
-description: "Basé sur un fork de MinIO, Ugloo est un stockage objet distribué pleinement compatible avec les API d'AWS S3."
+description: Basé sur un fork de MinIO, Ugloo est un stockage objet distribué pleinement compatible avec les API d'AWS S3.
 date: 2022-05-13T13:00:44+01:00
 draft: false
-images: ["Amazon-S3-logo.png","S3-lock.png"]
-feature-tags: ["S3","Amazon","MinIO","elastic"]
-authors: ["Ludovic Piot"]
+images:
+    - Amazon-S3-logo.png
+    - S3-lock.png
+feature-tags:
+    - Amazon
+    - elastic
+    - MinIO
+    - S3
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

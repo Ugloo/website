@@ -1,7 +1,8 @@
 ---
-title: "Contact"
+title: Contact
 draft: false
-images: ["images/object-storage-polar-bear.jpg"]
+images:
+    - images/object-storage-polar-bear.jpg
 ---
 
 ![Ours polaire-stockage objet](images/object-storage-polar-bear.jpg "[img]Ours polaire-stockage objet")

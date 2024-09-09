@@ -1,12 +1,19 @@
 ---
-title: "Compatibilité DICOM pour imagerie médicale PACS"
+title: Compatibilité DICOM pour imagerie médicale PACS
 # La description est utilisée comme résumé dans le digest de la homepage
-description: "Ugloo est nativement compatible avec DICOM, le standard de l'imagerie médicale."
+description: Ugloo est nativement compatible avec DICOM, le standard de l'imagerie médicale.
 date: 2023-12-21T13:00:44+01:00
 draft: false
-images: ["PACS-imaging.png"]
-feature-tags: ["dicom","pacs","compatibility","standards","protocols"]
-authors: ["Ludovic Piot"]
+images:
+    - PACS-imaging.png
+feature-tags:
+    - compatibility
+    - dicom
+    - pacs
+    - protocols
+    - standards
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

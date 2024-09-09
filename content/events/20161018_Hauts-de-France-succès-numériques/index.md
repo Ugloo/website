@@ -1,13 +1,21 @@
 ---
-title: "Aisne, Oise et Somme - Hauts de France soyons fiers de nos succès numériques"
-# description: "It’s the biggest release since v5 itself—Bootstrap v5.2.0-beta1 is here!"
+title: Aisne, Oise et Somme - Hauts de France soyons fiers de nos succès numériques
 date: 2016-10-18T00:00:00
 draft: false
-images: ["1520099084803.jpg"]
-categories: ["Revue de presse"]
-tags: ["Souveraineté", "Revue de presse", "Innovation"]
-keywords: ["Revue de presse","Souveraineté","Témoignage"]
-authors: ["Ludovic Piot"]
+images:
+    - 1520099084803.jpg
+categories:
+    - Revue de presse
+tags:
+    - Innovation
+    - Revue de presse
+    - Souveraineté
+keywords:
+    - Revue de presse
+    - Souveraineté
+    - Témoignage
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

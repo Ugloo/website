@@ -1,12 +1,25 @@
 ---
-title: "Storage backend for backup software"
+title: Storage backend for backup software
 # Description is used as a summary in the homepage digest
 description: "Veeam, Comvault, Rubrik, Atempo : Ugloo is certified as an S3 backend storage for the main backup and archiving software on the market."
 date: 2024-04-25T13:00:44+01:00
 draft: false
-images: ["backup-software-logos.png"]
-feature-tags: ["Commvault","Rubik","Atempo","Miria","Tina", "Lina", "Veeam", "backup", "archive", "certification", "validation"]
-authors: ["Ludovic Piot"]
+images:
+    - backup-software-logos.png
+feature-tags:
+    - archive
+    - Atempo
+    - backup
+    - certification
+    - Commvault
+    - Lina
+    - Miria
+    - Rubik
+    - Tina
+    - validation
+    - Veeam
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

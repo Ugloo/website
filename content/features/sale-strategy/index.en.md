@@ -1,12 +1,17 @@
 ---
-title: "Marketing strategy"
+title: Marketing strategy
 # Description is used as a summary in the homepage digest
-description: "Versatile when used, Ugloo also uses versatile marketing methods."
+description: Versatile when used, Ugloo also uses versatile marketing methods.
 date: 2024-05-30T17:20:00+01:00
 draft: false
-images: ["iStock-1385970223.jpg"]
-feature-tags: ["OPEX","CAPEX","UGAP market-ready"]
-authors: ["Ludovic Piot"]
+images:
+    - iStock-1385970223.jpg
+feature-tags:
+    - CAPEX
+    - OPEX
+    - UGAP market-ready
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

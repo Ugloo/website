@@ -1,5 +1,5 @@
 ---
-title: "Main pros of Ugloo software"
+title: Main pros of Ugloo software
 draft: false
 ---
 
