@@ -3,11 +3,12 @@ main:
     title: Bienvenue au sein des locaux Ugloo
     pageRef: /about
     weight: 10
+  # TODO: create a page about DATA needs?
   # ----- Sous-menu NEEDS
-  - name: Une réponse aux besoins
-    identifier: data needs
-    url: data needs
-    weight: 20
+  # - name: Une réponse aux besoins
+  #   identifier: data needs
+  #   url: data needs
+  #   weight: 20
   # ----- Sous-menu PROS
   - name: Les avantages
     identifier: pros

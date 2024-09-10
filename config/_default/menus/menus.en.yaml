@@ -3,15 +3,13 @@ main:
     url: about
     weight: 10
     title: Welcome at Ugloo office
-
-# ----- Submenu NEEDS
-# TODO: create a page about DATA needs?
-#   - name: An answer to data needs
-#     identifier: data needs
-#     url: data needs
-#     weight: 20
-
-# ----- Submenu PROS
+  # TODO: create a page about DATA needs?
+  # ----- Submenu NEEDS
+  # - name: An answer to data needs
+  #   identifier: data needs
+  #   url: data needs
+  #   weight: 20
+  # ----- Submenu PROS
   - name: Pros
     identifier: pros
     title: Learn more about most pros of Ugloo software
