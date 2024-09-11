@@ -1,5 +1,6 @@
 ---
 title: Aisne, Oise et Somme - Hauts de France soyons fiers de nos succès numériques
+description: Article LinkedIn sur l'attractivité des Hauts de France dans le domaine du numérique
 date: 2016-10-18T00:00:00
 draft: false
 images:

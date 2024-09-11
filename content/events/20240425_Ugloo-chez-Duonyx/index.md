@@ -1,6 +1,6 @@
 ---
 title: Présentation des nouvelles fonctionnalités et de la roadmap 2024
-description: L'équipe Ugloo est decendue à Paris pour présenter ses nouvelles fonctionnalités et la roadmap des mois à venir
+description: L'équipe Ugloo est descendue à Paris pour présenter ses nouvelles fonctionnalités et la roadmap des mois à venir
 date: 2024-04-25T18:00:00
 draft: false
 images:

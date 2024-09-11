@@ -1,6 +1,6 @@
 ---
 title: 📣 Ugloo présent aux Universités du CRIP 2024 !
-description: Les 📆 12 et 13 juin, Gonzague Dupont et son équipe réprésentaient `Ugloo` lors des **Universités du CRIP 2024**.
+description: Les 📆 12 et 13 juin, Gonzague Dupont et son équipe réprésentaient Ugloo lors des Universités du CRIP 2024.
 date: 2024-06-13T00:00:00
 draft: false
 images:
