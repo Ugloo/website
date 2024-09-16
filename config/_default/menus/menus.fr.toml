@@ -76,10 +76,3 @@ title = "Bienvenue au sein des locaux Ugloo"
   url = "https://www.linkedin.com/in/gonzaguedupont/recent-activity/all/"
   weight = 30
   title = "Page LinkedIn de Gonzague Dupont"
-
-[[social]]
-  name = "Gitlab"
-  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='images/feather/feather-sprite.svg#gitlab'/></svg>"
-  url = "https://git.deeptorrent.io"
-  weight = 40
-  title = "Compte GitLab"
