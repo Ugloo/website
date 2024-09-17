@@ -3,7 +3,7 @@
 
 # FIXME: baseURL n'est pas pris en compte pour les images des posts
 # baseURL is used to build the full URL path of Web links
-baseURL: https://1313-lpiot-gitpodworkspace-1ik5jt7i7s6.ws-eu116.gitpod.io
+# baseURL: https://1313-lpiot-gitpodworkspace-1ik5jt7i7s6.ws-eu116.gitpod.io
 
 title: Ugloo
 author: Ludovic Piot
@@ -36,20 +36,6 @@ frontmatter:
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
 
-fr:
-  languageName: 🇫🇷 Français
-  languageCode: fr-FR
-  weight: 10
-  params:
-    languageISO: 🇫🇷
-
-en:
-  languageName: 🇺🇸 English
-  languageCode: en-US
-  weight: 20
-  params:
-    languageISO: 🇺🇸
-
 taxonomies:
   tag: tags
   category: categories
@@ -72,7 +58,7 @@ permalinks:
 module:
   hugoVersion:
     extended: true
-    min: 0.320.0
+    min: 0.134.1
     max: 
   mounts:
     - source: assets
