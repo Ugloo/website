@@ -1,14 +1,20 @@
 ---
-title: "Solution adaptée aux besoins des Cloud Service Providers"
+title: Solution adaptée aux besoins des Cloud Service Providers
 # La description est utilisée comme résumé dans le digest de la homepage
-description: "Ugloo s'est rapproché de CSP 🇫🇷 et fourni les fonctionnalités indispensables à leur usage"
+description: Ugloo s'est rapproché de CSP 🇫🇷 et fourni les fonctionnalités indispensables à leur usage
 date: 2024-05-30T17:20:00+01:00
 draft: false
-images: ["freepik-saas-concept-collage.jpg"]
-categories: ["features"]
-tags: []
-keywords: []
-authors: ["Ludovic Piot"]
+images:
+    - freepik-saas-concept-collage.jpg
+feature-tags:
+    - CAPEX
+    - CSP-friendly
+    - multi-tenant
+    - OPEX
+    - service account
+    - subscription
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

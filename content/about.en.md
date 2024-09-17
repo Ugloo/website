@@ -1,7 +1,12 @@
 ---
-title: "The company"
+title: The company
 draft: false
-images: ["images/object-storage-polar-bear.jpg", "images/offices.png","images/ulgoo-team.jpg","images/Universite_de_Picardie_logo.svg","images/wavestone-innovation-radar-2023.png"]
+images:
+    - images/object-storage-polar-bear.jpg
+    - images/offices.png
+    - images/ulgoo-team.jpg
+    - images/Universite_de_Picardie_logo.svg
+    - images/wavestone-innovation-radar-2023.png
 ---
 
 ![object storage polar bear](images/object-storage-polar-bear.jpg "[img]object storage polar bear")

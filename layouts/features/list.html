@@ -1,8 +1,15 @@
 {{ define "main" }}
 
 <div class="container py-3">
+    
+    <div class="container-xxl col-md-10 mx-auto text-center my-3">
+        <img class="container-xxl d-block mx-auto" src="{{ `images/Ugloo-sumup-schema.png` | relURL }}" alt="Schéma synthétique du produit">
+        <div class="alert alert-warning"><code>Ugloo</code> est une solution de <b>stockage objet</b> compatible <code>AWS S3</code> et basée, à l'origine, sur un <i>fork</i> de <code>MinIO</code>, et l'intégration du protocole <code>BitTorrent</code>. Le produit évolue, depuis lors, pour répondre au mieux aux usages spécifiques des clients.<br>
+        Retrouvez, ici, un descriptif de ses principales fonctionnalités.
+        </div>
+    </div>
 
-    {{ if or .Site.Params.options.listCategoryFilter .Site.Params.options.listTagFilter }}
+    {{ if .Site.Params.options.listFeatureTagFilter }}
         <div class="row mb-3">
 
             <!-- {{ if .Site.Params.options.listCategoryFilter }}
@@ -14,23 +21,18 @@
                 </div>
             {{ end }} -->
 
-            <!-- {{ if .Site.Params.options.listTagFilter }}
+            {{ if .Site.Params.options.listFeatureTagFilter }}
                 <div class="col-auto">                    
                     <svg xmlns="http://www.w3.org/2000/svg" class="feather me-2"><use href="{{ `images/feather/feather-sprite.svg#tag` | relURL }}"/></svg>
-                    {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+                    
+                    {{range ($.Site.GetPage "taxonomyTerm" "feature-tags").Pages}}
                     <a class="badge text-bg-light nav-link" href="{{.Permalink}}">{{.Title}}</a>&nbsp;
                     {{end}}
                 </div>
-                {{ end }} -->
-                
-            </div>
             {{ end }}
-            
-            <div class="container-xxl col-md-10 mx-auto text-center my-3">
-        <img class="container-xxl d-block mx-auto" src="{{ `images/Ugloo-sumup-schema.png` | relURL }}" alt="Schéma synthétique du produit">
-        <div class="alert alert-warning"><code>Ugloo</code> est une solution de <b>stockage objet</b> compatible <code>AWS S3</code> et basée, à l'origine, sur un <i>fork</i> de <code>MinIO</code>, et l'intégration du protocole <code>BitTorrent</code>. Le produit évolue, depuis lors, pour répondre au mieux aux usages spécifiques des clients.<br>
-            Retrouvez, ici, un descriptif de ses principales fonctionnalités.</div>
-    </div>
+                
+        </div>
+    {{ end }}
       
     {{ if ne .Kind "taxonomy" }}
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">

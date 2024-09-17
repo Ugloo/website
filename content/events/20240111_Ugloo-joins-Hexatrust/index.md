@@ -1,13 +1,18 @@
 ---
-title: "Ugloo rejoint Hexatrust"
-description: "L'équipe Ugloo rejoint Hexatrust pour booster la reconnaissance de la solution de stockage S3 distribué et souverain"
+title: Ugloo rejoint Hexatrust
+description: L'équipe Ugloo rejoint Hexatrust pour booster la reconnaissance de la solution de stockage S3 distribué et souverain
 date: 2024-01-11T18:00:00
 draft: false
-images: ["Ugloo-joins-Hexatrust.jpg"]
-categories: ["Événement", "Souveraineté"]
-authors: ["Ludovic Piot"]
+images:
+    - Ugloo-joins-Hexatrust.jpg
+categories:
+    - Événement
+    - Souveraineté
+authors:
+    - Ludovic Piot
 noindex: false
 ---
+
 # Ugloo rejoint Hexatrust
 
 ![Ugloo rejoint Hexatrust](Ugloo-joins-Hexatrust.jpg "Ugloo rejoint Hexatrust")

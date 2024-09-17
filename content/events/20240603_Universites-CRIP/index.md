@@ -1,13 +1,22 @@
 ---
-title: "Ugloo participe aux Universités du CRIP 2024 les 12 et 13 juin prochains."
-description: ""
+title: Ugloo participe aux Universités du CRIP 2024 les 12 et 13 juin prochains.
+description: L’équipe Ugloo sera présente aux Universités du CRIP les 📆 12 et 13 Juin 2024 au Palais des Congrès à la Porte Maillot à Paris.
 date: 2024-06-03T00:00:00
 draft: false
-images: ["CRIP-univ-2024.jpg"]
-categories: ["Expos"]
-tags: ["Souveraineté", "Expos", "Innovation"]
-keywords: ["Expos","Souveraineté","Témoignage"]
-authors: ["Ludovic Piot"]
+images:
+    - CRIP-univ-2024.jpg
+categories:
+    - Expos
+tags:
+    - Souveraineté
+    - Expos
+    - Innovation
+keywords:
+    - Expos
+    - Souveraineté
+    - Témoignage
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

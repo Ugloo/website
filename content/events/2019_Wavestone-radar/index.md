@@ -1,13 +1,22 @@
 ---
-title: "Ugloo entre dans le top 15 des startups françaises de data protection"
-description: "Depuis 2019, Ugloo est présente dans le top 15 des startups françaises de data protection dans le CyberSecurity Innovation Radar de WaveStone."
+title: Ugloo entre dans le top 15 des startups françaises de data protection
+description: Depuis 2019, Ugloo est présente dans le top 15 des startups françaises de data protection dans le CyberSecurity Innovation Radar de WaveStone.
 date: 2019-06-01T00:00:00
 draft: false
-images: ["wavestone-innovation-radar-2023.png"]
-categories: ["Revue de presse"]
-tags: ["Souveraineté", "Revue de presse", "Innovation"]
-keywords: ["Revue de presse","Souveraineté","Témoignage"]
-authors: ["Ludovic Piot"]
+images:
+    - wavestone-innovation-radar-2023.png
+categories:
+    - Revue de presse
+tags:
+    - Innovation
+    - Revue de presse
+    - Souveraineté
+keywords:
+    - Revue de presse
+    - Souveraineté
+    - Témoignage
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

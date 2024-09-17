@@ -1,5 +1,5 @@
 ---
-title: "Les avantages de la solution Ugloo"
+title: Les avantages de la solution Ugloo
 draft: false
 ---
 
