@@ -36,29 +36,29 @@ main:
 # ----- Sous-menu SOCIAL
 social:
   - name: Contact
-    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-mail'><use href='images/feather/feather-sprite.svg#mail'/></svg>
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-mail'><use href='/images/feather/feather-sprite.svg#mail'/></svg>
     title: Nous contacter…
     url: contact
     weight: 5
   - name: Buffer1
     weight: 6
   - name: LinkedIn - Ugloo
-    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-linkedin'><use href='images/feather/feather-sprite.svg#linkedin'/></svg>
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-linkedin'><use href='/images/feather/feather-sprite.svg#linkedin'/></svg>
     title: Page LinkedIn d'Ugloo
     url: https://www.linkedin.com/company/ugloo/posts/?feedView=all
     weight: 10
   - name: GitHub
-    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='images/feather/feather-sprite.svg#github'/></svg>
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/images/feather/feather-sprite.svg#github'/></svg>
     title: Compte Github
     url: https://github.com/ugloo
     weight: 20
   - name: LinkedIn - Gonzague
-    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-linkedin'><use href='images/feather/feather-sprite.svg#linkedin'/></svg>
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-linkedin'><use href='/images/feather/feather-sprite.svg#linkedin'/></svg>
     title: Page LinkedIn de Gonzague Dupont
     url: https://www.linkedin.com/in/gonzaguedupont/recent-activity/all/
     weight: 30
   - name: Gitlab
-    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-gitlab'><use href='images/feather/feather-sprite.svg#gitlab'/></svg>
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-gitlab'><use href='/images/feather/feather-sprite.svg#gitlab'/></svg>
     title: Compte GitLab
     url: https://git.deeptorrent.io
     weight: 40

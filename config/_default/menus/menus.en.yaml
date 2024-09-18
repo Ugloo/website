@@ -1,5 +1,5 @@
 main:
-  - name: "The Company"
+  - name: The Company
     url: about
     weight: 10
     title: Welcome at Ugloo office
@@ -22,7 +22,7 @@ main:
     url: features
     weight: 40
   # ----- Submenu EVENTS
-  - name: "Events & press"
+  - name: Events & press
     identifier: events
     title: Read latest news about Ugloo
     url: events
@@ -36,23 +36,30 @@ main:
 
 # ----- Submenu SOCIAL
 social:
-  - name: "LinkedIn - Ugloo"
-    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='../images/feather/feather-sprite.svg#linkedin'/></svg>
+  - name: Contact
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-mail'><use href='/images/feather/feather-sprite.svg#mail'/></svg>
+    title: Contact us…
+    url: contact
+    weight: 5
+  - name: Buffer1
+    weight: 6
+  - name: LinkedIn - Ugloo
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-linkedin'><use href='/images/feather/feather-sprite.svg#linkedin'/></svg>
     title: Ugloo's LinkedIn page
     url: https://www.linkedin.com/company/ugloo/posts/?feedView=all
     weight: 10
   - name: GitHub
-    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-twitter'><use href='../images/feather/feather-sprite.svg#github'/></svg>
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/images/feather/feather-sprite.svg#github'/></svg>
     title: Github organisation
     url: https://github.com/ugloo
     weight: 20
-  - name: "LinkedIn - Gonzague"
-    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='../images/feather/feather-sprite.svg#linkedin'/></svg>
+  - name: LinkedIn - Gonzague
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-linkedin'><use href='/images/feather/feather-sprite.svg#linkedin'/></svg>
     title: Gonzague Dupont's LinkedIn page
     url: https://www.linkedin.com/in/gonzaguedupont/recent-activity/all/
     weight: 30
   - name: Gitlab
-    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='../images/feather/feather-sprite.svg#gitlab'/></svg>
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-gitlab'><use href='/images/feather/feather-sprite.svg#gitlab'/></svg>
     title: GitLab server
     url: https://git.deeptorrent.io
     weight: 40
