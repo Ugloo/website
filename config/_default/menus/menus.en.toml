@@ -66,9 +66,3 @@ title="Read latest news about Ugloo"
   weight = 30
   title = "Gonzague Dupont's LinkedIn page"
 
-[[social]]
-  name = "Gitlab"
-  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='../images/feather/feather-sprite.svg#gitlab'/></svg>"
-  url = "https://git.deeptorrent.io"
-  weight = 40
-  title = "GitLab server"
