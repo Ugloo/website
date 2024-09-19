@@ -7,13 +7,24 @@
     //TODO: complete the color scheme for dark/light OS version
     //FIXME: blue color while clicking the menu items
     //FIXME: menu item remains black on "ABOUT" page
-    //FIXME: Social menu items display incorrectly on every pages
 
     --bd-maya-icecolor: #C1E3ED;
+    --bd-maya-icecolor-rgb: rgb(193, 227, 237);
     --bd-dark-icecolor: #94CADA;
     --bd-ugloocolor: #0095b6;
     --bd-ugloocolor-rgb: 0, 149, 182;
+
+    // --bs-emphasis-color: white;
+    // --bs-emphasis-color-rgb: 255,255,255;
+  
+    --bs-link-color: var(--bs-white);
+    --bs-link-color-rgb: 255,255,255;
+ //   --bs-link-opacity: 1;
+    // --bs-link-hover-color: yellow;
+    // --bs-link-hover-color-rgb: 255, 255, 0;
+  
     --bs-nav-link-font-size: 12pt;
+    --bs-nav-bar-hover-color: var(--bd-maya-icecolor);
 }
 
 
@@ -30,15 +41,15 @@
 
     .bd-masthead {
         padding: 0.1rem 0;
-        background-image: radial-gradient(ellipse at center, var(--fbc-white) 0%, 30%, var(--bd-maya-icecolor) 100%);
+        background-image: radial-gradient(ellipse at center, var(--bs-white) 0%, 30%, var(--bd-maya-icecolor) 100%);
     }
 
     .bkgnd-iceblue-linear-gradient {
-        background-image: linear-gradient(var(--bd-maya-icecolor) 0%, var(--fbc-white) 50%);
+        background-image: linear-gradient(var(--bd-maya-icecolor) 0%, var(--bs-white) 50%);
     }
 
     .bkgnd-iceblue-linear-gradient-2 {
-        background-image: linear-gradient(var(--fbc-white) 0%, 50%, var(--bd-maya-icecolor) 100%);
+        background-image: linear-gradient(var(--bs-white) 0%, 50%, var(--bd-maya-icecolor) 100%);
     }
 
     .btn-bd-primary {
@@ -87,10 +98,17 @@
 // ----------------------------------------------------------------------------
 // Styles for single pages
 
+a {
+    --bs-link-color-rgb: var(--bd-ugloocolor-rgb);
+}
+
+// ----------------------------------------------------------------------------
+// Styles for Menu bar
+
 .navbar {
     @extend .navbar-light;
 
-    --bs-navbar-color: var(--fbc-white);
+    --bs-navbar-color: var(--bs-white);
     --bs-link-hover-color: var(--bd-ugloocolor);
     --bs-navbar-nav-link-padding-x: 1rem;
 
@@ -107,12 +125,6 @@
 }
 
 .navbar-nav {
-    --bs-nav-link-padding-x: 0;
-    --bs-nav-link-padding-y: 0.5rem;
-    --bs-nav-link-font-weight: ;
-    --bs-nav-link-color: var(--bs-navbar-color);
-    --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
-    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
     display: flex;
     flex-direction: column;
     padding-left: 3px;
@@ -122,6 +134,12 @@
 
 // lpiot: customized
 .nav-item {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-white);
+    --bs-nav-link-hover-color: var(--bd-ugloocolor);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
     display: block;
     margin: 5px;
     background-color: var(--bd-ugloocolor);
@@ -161,9 +179,13 @@
     flex-grow: 0;
 }
 
-a .feather-mail:hover {
-    stroke: #000;
-    fill: #000;
+// .feather {
+//     stroke: var(--bs-white);
+// }
+
+a .feather:hover {
+    stroke: var(--bs-black);
+    fill: var(--bs-black);
 }
 
 
@@ -204,29 +226,28 @@ strong {
 // Styles for single pages
 
 .py-3 h1 {
-    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-    font-weight: bolder;
-    font-size: 4rem;
-    background-color: var(--bd-dark-icecolor);
     color: var(--bd-ugloocolor);
-    text-shadow: 1px 1px 3px black;
-    padding-top: 1em;
-    padding-bottom: 3em;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
     margin-bottom: 3rem;
+    padding-bottom: 3em;
+    padding-top: 1em;
+    // text-shadow: 1px 1px 3px black;
+    text-transform: uppercase;
 }
 
 .h1b {
     font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-weight: bolder;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: normal;
     position: relative;
-    top: -6em;
+    top: -7em;
     z-index: auto;
-    background-color: var(--bd-dark-icecolor);
-    color: var(--fbc-white);
-    padding-left: 1em;
+    color: var(--bd-ugloocolor);
     padding-right: 1em;
-    margin-bottom: -6em;
+    margin-bottom: -7em;
 }
 
 .test-lpiot {
@@ -237,16 +258,17 @@ strong {
 }
 
 .py-3 h2 {
+    // background: linear-gradient(to bottom, var(--bs-white) 0%, 20%, var(--bd-maya-icecolor) 80%, var(--bs-white) 100%);
+    color: var(--bd-ugloocolor);
     font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-    font-weight: bolder;
-    text-shadow: 1px 1px 3px black;
-    background: linear-gradient(to bottom, var(--bs-white) 0%, 20%, var(--bd-maya-icecolor) 80%, var(--bs-white) 100%);
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    color: var(--fbc-white) !important;
-    text-align: center;
-    margin-top: 7rem;
+    font-weight: bold;
     margin-bottom: 3rem;
+    margin-top: 7rem;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    text-align: center;
+    // text-shadow: 1px 1px 3px black;
+    text-transform: uppercase;
 }
 
 .py-3 h3 {
@@ -418,10 +440,17 @@ https://flickity.metafizzy.co
     border-radius: 30px;
     margin-right: 20px;
     // overflow: hidden;
+    &:after {
+        opacity: 0.6;
+    }
+    .card {
+        background-color: unset;
+        border: unset;
 
-    // .card .card-body {
-    //     margin-bottom: 3px;
-    // }
+    }
+    .card .card-body {
+        margin-bottom: 30px;
+    }
 }
 
 .carousel-cell img {
