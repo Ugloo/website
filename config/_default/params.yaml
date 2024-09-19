@@ -5,29 +5,26 @@
 # https://gohugo.io/templates/internal/#twitter-cards
 # https://schema.org/Thing
 # https://schema.org/Article
+
 description: Stockage objet 🇫🇷 compatible AWS S3, indestructible, illimité et distribué
+
 images:
-  - images/Ugloo-sumup-schema.png
-  - images/Ugloo-logo-vignette-allongee.png
-  - images/Ugloo-splash-screen.png
   - images/iceberg-facetted.png
   - images/icy-texture.png
+  - images/Ugloo-logo-vignette-allongee.png
+  - images/Ugloo-splash-screen.png
+  - images/Ugloo-sumup-schema.png
+
 mainMenuLogo: images/Ugloo-logo-vignette-allongee.png
 
 # For favicons
 ## Chrome Browser
-themeColor: #fff
+themeColor: #0095b6
 
 # Alert
 alert: false
 alertDismissable: true
 alertText: Introducing this new service! <a class=\"alert-link stretched-link\" href=\"https://salvus.site/\">Check out Total Security</a>
-
-# Pre-footer
-# TODO: What is it for?
-footerAbout: true
-footerAboutTitle: Few Words About Us
-footerAboutText: We protect your website so you can provide a safe environment to build trust and improve the user experience of your visitors.<br/><br/>Salvus Site is the partner that you can rely on for preventive and reactive cybersecurity.
 
 options:
   bootStrapJs: true
