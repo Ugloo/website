@@ -8,6 +8,34 @@
 
 description: Stockage objet 🇫🇷 compatible AWS S3, indestructible, illimité et distribué
 
+# CONTENT-SECURITY-POLICY
+# used in layouts/partials/head/content-security-policy
+# beware of the specific syntax that is mandatory for templating reason
+csp:
+  childsrc:
+    - "'self'"
+  fontsrc:
+    - "'self'"
+    - https://fonts.gstatic.com
+  formaction:
+    - "'self'"
+  framesrc:
+    - "'self'"
+    - https://www.youtube.com
+  imgsrc:
+    - "'self'"
+  objectsrc:
+    - "'none'"
+  scriptsrc:
+    - "'self'"
+  scriptsrcelem:
+    - "'self'"
+    - "'unsafe-inline'"
+  stylesrc:
+    - "'self'"
+    - "'unsafe-inline'"
+    - https://fonts.googleapis.com
+
 images:
   - images/iceberg-facetted.png
   - images/icy-texture.png

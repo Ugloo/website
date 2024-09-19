@@ -1,0 +1,11 @@
+<!-- Mostly based upon https://blog.jeremylikness.com/blog/create-content-security-policy-csp-in-hugo/ -->
+<!-- https://report-uri.com/home/generate -->
+<!-- <meta http-equiv='Content-Security-Policy' content="script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'"> -->
+
+{{ fmt.Printf `<meta http-equiv="Content-Security-Policy"
+    content="upgrade-insecure-requests; base-uri 'none'; block-all-mixed-content; default-src 'self'; frame-src %s; font-src %s;object-src 'none'; script-src 'self'; script-src-elem %s;style-src %s">`
+    (delimit .Site.Params.csp.framesrc " ")
+    (delimit .Site.Params.csp.fontsrc " ")
+    (delimit .Site.Params.csp.scriptsrcelem " ")
+    (delimit .Site.Params.csp.stylesrc " ")
+    | safeHTML }}
