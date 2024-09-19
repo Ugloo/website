@@ -4,6 +4,7 @@ description: Ugloo tiendra un stand conjoint avec Hexatrust et Rubrik, à l'év�
 date: 2024-05-23T00:00:00
 draft: false
 images:
+    - Ugloo-Rubrik-SantExpo-2024-thumbnail.jpg
     - Ugloo-Rubrik-SantExpo-2024.jpg
 categories:
     - Expos

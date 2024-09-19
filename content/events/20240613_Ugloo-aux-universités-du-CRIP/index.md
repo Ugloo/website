@@ -4,6 +4,7 @@ description: Les 📆 12 et 13 juin, Gonzague Dupont et son équipe réprésent
 date: 2024-06-13T00:00:00
 draft: false
 images:
+    - 1718717194694_thumbnail.jpg
     - 1718717194694.jpg
 categories:
     - Expos
