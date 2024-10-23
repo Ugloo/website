@@ -26,12 +26,12 @@ Ugloo
 
 Guillaume Loisance
 
-### Hosting
+## Hosting
 
 This Web site is hosted as **Github Pages**.  
 Here are **Github** [legal terms of service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)
 
-#### GitHub, Inc.
+### GitHub, Inc.
 
 c/o Corporation Service Company  
 2710 Gateway Oaks Drive, Suite 150N  
