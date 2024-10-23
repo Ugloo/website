@@ -10,7 +10,7 @@ Click the button below to start a new development environment based upon **main*
 To build and serve the website, execute the following command.
 
 ```
-hugo server --appendPort=false --buildDrafts --cleanDestinationDir --disableFastRender --gc --ignoreCache --logLevel debug --source website --baseURL <theBaseURL of your GitPod instance>
+hugo server --appendPort=false --buildDrafts --cleanDestinationDir --disableFastRender --gc --ignoreCache --logLevel debug --source website --port <the TCP port you want to expose your Website on> --baseURL <theBaseURL of your GitPod instance>
 ```
 
 # Few instructions to maintain the WebSite
