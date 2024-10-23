@@ -1,12 +1,19 @@
 ---
-title: "Compatible with medical imaging DICOM protocol and PACS"
+title: Compatible with medical imaging DICOM protocol and PACS
 # Description is used as a summary in the homepage digest
-description: "Ugloo is natively compatible with DICOM, the medical imaging standard."
+description: Ugloo is natively compatible with DICOM, the medical imaging standard.
 date: 2023-12-21T13:00:44+01:00
 draft: false
-images: ["PACS-imaging.png"]
-feature-tags: ["dicom","pacs","compatibility","standards","protocols"]
-authors: ["Ludovic Piot"]
+images:
+    - PACS-imaging.png
+feature-tags:
+    - compatibility
+    - dicom
+    - pacs
+    - protocols
+    - standards
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

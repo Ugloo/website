@@ -1,12 +1,20 @@
 ---
-title: "A solution that feets Cloud Service Providers needs"
+title: A solution that feets Cloud Service Providers needs
 # Description is used as a summary in the homepage digest
-description: "Ugloo reached several 🇫🇷 CSP to develop functionalities these specific stakeholders require."
+description: Ugloo reached several 🇫🇷 CSP to develop functionalities these specific stakeholders require.
 date: 2024-05-30T17:20:00+01:00
 draft: false
-images: ["freepik-saas-concept-collage.jpg"]
-feature-tags: ["multi-tenant","service account","subscription","OPEX","CAPEX","CSP-friendly"]
-authors: ["Ludovic Piot"]
+images:
+    - freepik-saas-concept-collage.jpg
+feature-tags:
+    - CAPEX
+    - CSP-friendly
+    - multi-tenant
+    - OPEX
+    - service account
+    - subscription
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

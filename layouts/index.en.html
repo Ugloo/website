@@ -1,39 +1,186 @@
 {{ define "main" }}
 
+<!-- --------------------------------------------------------------------------
+// Section BIG LOGO
+-->
 <section class="section bd-masthead">
   <div class="container-xxl">
     <div class="col-md-9 mx-auto text-center mb-5">
-      <img class="container-xxl d-block mx-auto" src="{{ `images/Ugloo-sumup-schema.png` | relURL }}" alt="Summary diagram of the product">
-      <h1 class="display-4 text-ugloofontfamily text-ugloocolor">{{ .Site.Title }}</h1>
-      <p class="lead mb-4 text-ugloofontfamily">{{ .Site.Params.Description }}</p>
-      <a class="btn btn-bd-primary btn-lg px-4 mb-2 mx-3 text-ugloofontfamily" href="/en/features/" role="button">Get started</a>
-      <a class="btn btn-bd-primary btn-lg px-4 mb-2 mx-3 text-ugloofontfamily" href="/en/events/" role="button">Latests news</a>
+      <img class="container-xxl d-block mx-auto py-2"
+        src="{{ `images/Ugloo-splash-screen.png` | relURL }}"
+        alt="Ugloo splashscreen">
+      <div class="row justify-content-center text-center mt-lg-2">
+        <div class="col-lg-7">
+          <h1 class="display-4 text-ugloofontfamily text-ugloocolor"><b>AWS S3</b> compatible<br>object storage 🇫🇷</h1>
+          <!-- <p class="lead mb-4 text-ugloofontfamily">{{ .Site.Params.Description }}</p> -->
+          <!-- <a class="btn btn-bd-primary btn-lg px-4 mb-2 mx-3 text-ugloofontfamily" href="/features/"
+            role="button">FAQ</a> -->
+          <!-- <a class="btn btn-bd-primary btn-lg px-4 mb-2 mx-3 text-ugloofontfamily" href="/events/" role="button">Contact us!</a> -->
+        </div>
+        <div class="col-lg-5">
+          <p class="text-center">
+            <iframe width="448" height="252" src="https://www.youtube.com/embed/ttcpfe3uI-g?si=zQZ4QKQuUOpNIAHH"
+              title="Ugloo - Présentation" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class=" text-ugloofontfamily text-ugloocolor fs-3 pt-2 pb-5"><b>INFINITE-SCALING, INDESTRUCTIBLE, DISTRIBUTED</b></div>
+  </div>
+</section>
+<section class="section bkgnd-iceblue-linear-gradient">
+  <div class="col-md-9 mx-auto text-center">
+    <strong>
+      <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-big'>
+        <use href="{{ `images/feather/feather-sprite.svg#arrow-down-circle` | relURL }}" />
+      </svg>
+    </strong>
+  </div>
+</section>
+
+<!-- --------------------------------------------------------------------------
+// Section ARCHITECTURE SCHEMA
+-->
+<section class="section align-center">
+  <!-- <img class="container-sm col-md-3 iceberg-position" src="{{ `images/iceberg-facetted.png` | relURL }}"
+    alt="Iceberg à facettes"> -->
+  <div class="container-xxl">
+    <div class="col-md-9 mx-auto text-center mb-5">
+      <img class="container-xxl d-block mx-auto" src="{{ `images/Ugloo-sumup-schema.png` | relURL }}"
+        alt="Sumup schema of the solution">
     </div>
   </div>
 </section>
 
-<section class="section container my-3">
-  {{ partial "features-in-a-nutshell.en" . }}
+<section class="section bkgnd-iceblue-linear-gradient-2">
+  <div class="col-md-9 mx-auto text-center">
+    <strong>
+      <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-big'>
+        <use href="{{ `images/feather/feather-sprite.svg#arrow-down-circle` | relURL }}" />
+      </svg>
+    </strong>
+  </div>
 </section>
 
-<section class="section container my-3">
-  <h3 class="text-secondary text-center my-5">Get started</h3>
-  <p class="text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/ttcpfe3uI-g?si=zQZ4QKQuUOpNIAHH" title="Ugloo - Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<!-- --------------------------------------------------------------------------
+// Section MAIN ADVANTAGES
+-->
+<section class="section bd-masthead">
+  <div class="container-xxl">
+
+    <img class="container-xxl d-block mx-auto col-md-6 py-2"
+      src="{{ `images/iceberg-facetted.png` | relURL }}"
+      alt="Iceberg à facettes">
+
+    <!-- <div class="col-md-9 mx-auto text-center mb-5">
+    </div> -->
+    <div class="mx-auto text-center mb-5">
+    </div>
+
+    <div class="row justify-content-end mt-lg-3">
+      <div class="col-lg-6 text-end" style="margin-top: -55rem; padding-right: 11rem;">
+        <strong>
+          <h2 class="h2">SIMPLE</h2>
+        </strong>
+        <p class="text-end">Thanks to its <i>API</i>s, <b>Ugloo</b> easily connects <br>to your existing apps and is easy to manage<br>with its centralized Web interface.</p>
+      </div>
+      <div class="col-lg-6" style="margin-top: -51rem; padding-left: 3rem;">
+        <strong>
+          <h2 class="h2">CHEAP</h2>
+        </strong>
+        <p>By using your available spaces and optimizing <b>up to 80%</b><br>of your data storage,
+          <b>Ugloo</b> significantly reduces your storage costs.
+        </p>
+      </div>
+    </div>
+
+    <div class="row justify-content-end mt-lg-3">
+      <div class="col-lg-6 text-end" style="margin-top: -40rem; padding-right: 18rem;">
+        <strong>
+          <h2 class="h2">INDESTRUCTIBLE STORAGE</h2>
+        </strong>
+        <p>Redundancy and automatic<br>verification/reconstruction of fragments provide you with
+          a <b>lifetime guarantee</b> for your data, with an <b>unmatched level of security</b>.
+        </p>
+      </div>
+      <div class="col-lg-6" style="margin-top: -35rem; padding-left: 11rem;">
+        <strong>
+          <h2 class="h2">GOVERNANCE AT<br>YOUR WILL <small class="d-none">👨‍✈️</small></h2>
+        </strong>
+        <p>Your data (fragments and redundancy) are <b>stored exclusively within your infrastructure</b>,
+          whether it is in your <i>datacenters</i>, in one or more public <i>IaaS/CaaS cloud</i> services, or hybrid.
+        </p>
+      </div>
+    </div>
+
+    <div class="row justify-content-end mt-lg-3">
+      <div class="col-lg-6 text-end" style="margin-top: -19rem; padding-right: 12rem;">
+        <strong>
+          <h2 class="h2">DISTRIBUTED ARCHITECTURE</h2>
+        </strong>
+        <p>With its <b>patented</b> <code>DeepTorrent</code> technology, <b>Ugloo</b> decentralizes 100% of your data storage,
+          regardless of the topology of your infrastructures.
+        </p>
+      </div>
+      <div class="col-lg-6" style="margin-top: -17rem; padding-left: 4rem;">
+        <strong>
+          <h2 class="h2">ELASTIC STORAGE</h2>
+        </strong>
+        <p>Natively compatible with the <code>AWS S3</code> object storage technology,<br>
+          <b>Ugloo</b> is able to store an infinite number of objects and up to <b>50 TB</b> per object.
+        </p>
+      </div>
+
+    </div>
+  </div>
 </section>
 
-<section class="section container my-3">
-  <h3 class="text-secondary text-center my-5">Latest news</h3>
+<section class="section bkgnd-iceblue-linear-gradient">
+  <div class="col-md-9 mx-auto text-center">
+    <strong>
+      <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-big'>
+        <use href="{{ `images/feather/feather-sprite.svg#arrow-down-circle` | relURL }}" />
+      </svg>
+    </strong>
+  </div>
+</section>
+
+<!-- --------------------------------------------------------------------------
+// Section CAROUSEL OF FEATURES
+-->
+<!-- FIXME: fix the carousel layout -->
+<section class="section container py-3">
+  <h2 class="my-5">Latest features</h2>
+  {{ partial "features-carousel" . }}
+</section>
+
+<!-- --------------------------------------------------------------------------
+// Section LATEST NEWS
+-->
+<!-- FIXME: fix the cards layout -->
+<section class="section container py-3">
+  <h2 class="my-5">Latest news</h2>
   {{ partial "latest-events" . }}
 </section>
 
-
-<section class="section container my-3">
-  <h3 class="text-secondary text-center my-5">New features</h3>
+<!-- --------------------------------------------------------------------------
+// Section LATEST FEATURES
+-->
+<!--
+<section class="section container py-3">
+  <h2 class="my-5">Nouvelles fonctionnalités</h2>
   {{ partial "latest-features" . }}
-</section>
+</section> -->
 
-<!-- <section class="section container my-3">
-  <h3 class="text-secondary text-center my-5">Derniers posts</h3>
+<!-- --------------------------------------------------------------------------
+// Section LATEST POSTS
+-->
+<!-- <section class="section container py-3">
+  <h2 class="my-5">Latest posts</h2>
   {{ partial "latest-posts" . }}
 </section> -->
+
 {{ end }}

@@ -1,12 +1,19 @@
 ---
-title: "Observability"
+title: Observability
 # Description is used as a summary in the homepage digest
-description: "Ugloo strengthened its observability harness, to offer the most relevant metrics and enable better management of the cluster activity."
+description: Ugloo strengthened its observability harness, to offer the most relevant metrics and enable better management of the cluster activity.
 date: 2024-05-13T13:00:44+01:00
 draft: false
-images: ["grafana_dash.webp"]
-feature-tags: ["Observability","metrics","Prometheus","logs", "audit"]
-authors: ["Ludovic Piot"]
+images:
+    - grafana_dash.webp
+feature-tags:
+    - audit
+    - logs
+    - metrics
+    - Observability
+    - Prometheus
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

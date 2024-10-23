@@ -1,0 +1,77 @@
+# TODO: convert config into YAML format
+# FIXME: .Site.Social was deprecated in Hugo v0.124.0 and will be removed in a future release. Use .Site.Params instead.
+
+# FIXME: baseURL n'est pas pris en compte pour les images des posts
+# baseURL is used to build the full URL path of Web links
+baseURL: https://1313-lpiot-gitpodworkspace-1ik5jt7i7s6.ws-eu116.gitpod.io
+
+title: Ugloo
+author: Ludovic Piot
+copyright: ©2024, Ugloo.
+
+timeZone: Europe/Paris
+
+theme: hugo-bootstrap-theme
+themesdir: themes/
+
+disableHugoGeneratorInject: false
+enableRobotsTXT: true
+#enableGitInfo: true
+enableEmoji: true
+#sectionPagesMenu: main
+#googleAnalytics: UA-1511XXXX-X
+
+frontmatter:
+  date:
+    - date
+    - publishDate
+    - lastmod
+  lastmod:
+    - lastmod
+    - :fileModTime
+    - :default
+
+# ----- LANGUAGES
+# isMultilingual
+defaultContentLanguage: fr
+defaultContentLanguageInSubdir: false
+
+taxonomies:
+  tag: tags
+  category: categories
+  feature-tag: feature-tags
+  # feature: features
+  # event: events
+  # series: series
+  # author: authors
+
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
+
+permalinks:
+  post: /post/:title/
+  feature: /feature/:title/
+  event: /event/:title/
+
+module:
+  hugoVersion:
+    extended: true
+    min: 0.134.0
+    max: 
+  mounts:
+  - source: archetypes
+    target: archetypes
+  - source: assets
+    target: assets
+  - source: content
+    target: content
+  - source: data
+    target: data
+  - source: i18n
+    target: i18n
+  - source: layouts
+    target: layouts
+  - source: static
+    target: static

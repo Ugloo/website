@@ -1,12 +1,17 @@
 ---
-title: "Stratégie de commercialisation"
+title: Stratégie de commercialisation
 # La description est utilisée comme résumé dans le digest de la homepage
-description: "Versatile dans ses utilisations, Ugloo l'est aussi dans ses modes de commercialisation."
+description: Versatile dans ses utilisations, Ugloo l'est aussi dans ses modes de commercialisation.
 date: 2024-05-30T17:20:00+01:00
 draft: false
-images: ["iStock-1385970223.jpg"]
-feature-tags: ["OPEX","CAPEX","UGAP market-ready"]
-authors: ["Ludovic Piot"]
+images:
+    - iStock-1385970223.jpg
+feature-tags:
+    - CAPEX
+    - OPEX
+    - UGAP market-ready
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

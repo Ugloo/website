@@ -1,12 +1,19 @@
 ---
-title: "Observabilité"
+title: Observabilité
 # La description est utilisée comme résumé dans le digest de la homepage
-description: "Ugloo a renforcé son harnais d'observabilité, pour offrir la meilleure visibilité et permettre la meilleure gestion de l'activité de la solution."
+description: Ugloo a renforcé son harnais d'observabilité, pour offrir la meilleure visibilité et permettre la meilleure gestion de l'activité de la solution.
 date: 2024-05-13T13:00:44+01:00
 draft: false
-images: ["grafana_dash.webp"]
-feature-tags: ["Observability","metrics","Prometheus","logs", "audit"]
-authors: ["Ludovic Piot"]
+images:
+    - grafana_dash.webp
+feature-tags:
+    - audit
+    - logs
+    - metrics
+    - Observability
+    - Prometheus
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

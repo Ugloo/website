@@ -1,0 +1,62 @@
+# Site Params
+
+# Open Graph, Twitter Cards and schema.org Thing and Article (in posts)
+# https://gohugo.io/templates/internal/#open-graph
+# https://gohugo.io/templates/internal/#twitter-cards
+# https://schema.org/Thing
+# https://schema.org/Article
+
+description: Stockage objet 🇫🇷 compatible AWS S3, indestructible, illimité et distribué
+
+# CONTENT-SECURITY-POLICY
+# used in layouts/partials/head/content-security-policy
+# beware of the specific syntax that is mandatory for templating reason
+csp:
+  childsrc:
+    - "'self'"
+  fontsrc:
+    - "'self'"
+    - https://fonts.gstatic.com
+  formaction:
+    - "'self'"
+  framesrc:
+    - "'self'"
+    - https://www.youtube.com
+  imgsrc:
+    - "'self'"
+  objectsrc:
+    - "'none'"
+  scriptsrc:
+    - "'self'"
+  scriptsrcelem:
+    - "'self'"
+    - "'unsafe-inline'"
+  stylesrc:
+    - "'self'"
+    - "'unsafe-inline'"
+    - https://fonts.googleapis.com
+
+images:
+  - images/iceberg-facetted.png
+  - images/icy-texture.png
+  - images/Ugloo-logo-vignette-allongee.png
+  - images/Ugloo-splash-screen.png
+  - images/Ugloo-sumup-schema.png
+
+mainMenuLogo: images/Ugloo-logo-vignette-allongee.png
+
+# For favicons
+## Chrome Browser
+themeColor: #0095b6
+
+# Alert
+alert: false
+alertDismissable: true
+alertText: Introducing this new service! <a class=\"alert-link stretched-link\" href=\"https://salvus.site/\">Check out Total Security</a>
+
+options:
+  bootStrapJs: true
+  breadCrumb: true
+  listCategoryFilter: true
+  listTagFilter: true
+  listFeatureTagFilter: true

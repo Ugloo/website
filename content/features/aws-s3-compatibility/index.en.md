@@ -1,12 +1,19 @@
 ---
-title: "AWS S3-compatible object storage"
+title: AWS S3-compatible object storage
 # Description is used as a summary in the homepage digest
-description: "Based on a fork of MinIO, Ugloo is a distributed object storage fully compatible with AWS S3 APIs."
+description: Based on a fork of MinIO, Ugloo is a distributed object storage fully compatible with AWS S3 APIs.
 date: 2022-05-13T13:00:44+01:00
 draft: false
-images: ["Amazon-S3-logo.png","S3-lock.png"]
-feature-tags: ["S3","Amazon","MinIO","elastic"]
-authors: ["Ludovic Piot"]
+images:
+    - Amazon-S3-logo.png
+    - S3-lock.png
+feature-tags:
+    - Amazon
+    - elastic
+    - MinIO
+    - S3
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

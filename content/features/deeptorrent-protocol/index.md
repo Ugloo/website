@@ -1,12 +1,19 @@
 ---
-title: "Protocole de stockage distribué DeepTorrent™"
+title: Protocole de stockage distribué DeepTorrent™
 # La description est utilisée comme résumé dans le digest de la homepage
-description: "Ugloo a développé DeepTorrent, une technologie brevetée de stockage distribué, décentralisé et immuable, extension du protocole BitTorrent."
+description: Ugloo a développé DeepTorrent, une technologie brevetée de stockage distribué, décentralisé et immuable, extension du protocole BitTorrent.
 date: 2024-05-13T13:00:44+01:00
 draft: false
-images: ["DeepTorrent-icon.png"]
-feature-tags: ["DeepTorrent","BitTorrent","distributed","peer-to-peer","resilient"]
-authors: ["Ludovic Piot"]
+images:
+    - DeepTorrent-icon.png
+feature-tags:
+    - BitTorrent
+    - DeepTorrent
+    - distributed
+    - peer-to-peer
+    - resilient
+authors:
+    - Ludovic Piot
 noindex: false
 ---
 

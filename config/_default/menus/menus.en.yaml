@@ -1,0 +1,60 @@
+main:
+  - name: The Company
+    url: about
+    weight: 10
+    title: Welcome at Ugloo office
+  # TODO: create a page about DATA needs?
+  # ----- Submenu NEEDS
+  # - name: An answer to data needs
+  #   identifier: data needs
+  #   url: data needs
+  #   weight: 20
+  # ----- Submenu PROS
+  - name: Pros
+    identifier: pros
+    title: Learn more about most pros of Ugloo software
+    url: pros
+    weight: 30
+  # ----- Submenu FEATURES
+  - name: Features
+    identifier: features
+    title: Learn more details about Ugloo main features
+    url: features
+    weight: 40
+  # ----- Submenu EVENTS
+  - name: Events & press
+    identifier: events
+    title: Read latest news about Ugloo
+    url: events
+    weight: 50
+  # ----- Submenu BLOG
+  # TODO: create a BLOG section
+  # [[main]]
+  #     identifier: blog"
+  #   - name: Posts"
+  #     weight: 60
+
+# ----- Submenu SOCIAL
+social:
+  - name: Contact
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-mail'><use href='/images/feather/feather-sprite.svg#mail'/></svg>
+    title: Contact us…
+    url: contact-simple
+    weight: 5
+  - name: Buffer1
+    weight: 6
+  - name: LinkedIn - Ugloo
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-linkedin'><use href='/images/feather/feather-sprite.svg#linkedin'/></svg>
+    title: Ugloo's LinkedIn page
+    url: https://www.linkedin.com/company/ugloo/posts/?feedView=all
+    weight: 10
+  - name: GitHub
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/images/feather/feather-sprite.svg#github'/></svg>
+    title: Github organisation
+    url: https://github.com/ugloo
+    weight: 20
+  - name: LinkedIn - Gonzague
+    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-linkedin'><use href='/images/feather/feather-sprite.svg#linkedin'/></svg>
+    title: Gonzague Dupont's LinkedIn page
+    url: https://www.linkedin.com/in/gonzaguedupont/recent-activity/all/
+    weight: 30
