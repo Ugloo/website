@@ -36,11 +36,11 @@ main:
 
 # ----- Submenu SOCIAL
 social:
-  - name: Contact
-    pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-mail'><use href='/images/feather/feather-sprite.svg#mail'/></svg>
-    title: Contact us…
-    url: contact
-    weight: 5
+  # - name: Contact
+  #   pre: <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-mail'><use href='/images/feather/feather-sprite.svg#mail'/></svg>
+  #   title: Contact us…
+  #   url: contact
+  #   weight: 5
   - name: Buffer1
     weight: 6
   - name: LinkedIn - Ugloo
