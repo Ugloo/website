@@ -13,10 +13,10 @@ images:
 # LA SOCIÉTÉ **UGLOO** et ses amis
 
 **Ugloo** est l'éditeur 🇫🇷français d'une solution de stockage secondaire **hautement sécurisée** contre les _RansomWares_ (_Software Define Storage_). 
-{ .h1b }
+{ .alert .alert-warning }
 
-![Ours polaire-stockage objet](images/object-storage-polar-bear.jpg "[img]Ours polaire-stockage objet")
-{ .col-md-6 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 .test-lpiot } 
+<!-- ![Ours polaire-stockage objet](images/object-storage-polar-bear.jpg "[img]Ours polaire-stockage objet")
+{ .col-md-6 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 .test-lpiot } -->
 
 ![localisation des bureaux](images/offices.png "[img]Localisation des bureaux")
 { .col-md-4 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }

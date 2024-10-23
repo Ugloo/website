@@ -12,10 +12,11 @@ images:
 
 # THE **UGLOO** COMPANY AND ITS FRIENDS
 
-**Ugloo** is a 🇫🇷french software company that propose a highly secure secondary storage solution against _RansomWares_ (_Software Define Storage_).
-{ .h1b }
-![object storage polar bear](images/object-storage-polar-bear.jpg "[img]object storage polar bear")
-{ .col-md-6 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 .test-lpiot } 
+**Ugloo** is a 🇫🇷french software company that propose a **highly secure** secondary storage solution against _RansomWares_ (_Software Define Storage_).
+{ .alert .alert-warning }
+
+<!-- ![object storage polar bear](images/object-storage-polar-bear.jpg "[img]object storage polar bear")
+{ .col-md-6 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 .mb-4 .test-lpiot }  -->
 
 ![Office locations](images/offices.png "[img]Office locations")
 { .col-md-4 .img-fluid .d-flex .mx-auto .align-items-center .rounded .p1 }
