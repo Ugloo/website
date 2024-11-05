@@ -25,12 +25,12 @@ Ugloo
 
 Guillaume Loisance
 
-### Hébergement
+## Hébergement
 
 Ce site Web site est hébergé sur **Github Pages**.  
 cf. les [Conditions Générales d’Utilisation](https://docs.github.com/fr/site-policy/github-terms/github-terms-of-service) de **GitHub**
 
-#### GitHub, Inc.
+### GitHub, Inc.
 
 c/o Corporation Service Company  
 2710 Gateway Oaks Drive, Suite 150N  
