@@ -15,4 +15,4 @@ You can follow us on social networks.
 
 - LinkedIn: https://www.linkedin.com/company/ugloo
 
-or contact us via e-mail: {{< email user="contact" domain="ugloo.com" class="cool-link" >}}
+or contact us via e-mail: {{< email user="ugloo" domain="ugloo.com" class="cool-link" >}}
