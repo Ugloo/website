@@ -15,12 +15,11 @@ menu:
 
 ### Contact
 
-Ugloo  
+✉️ **Ugloo**  
 9, rue du Quatre Septembre  
 75002, Paris (France)  
 
 <u>E-mail</u> 📧 {{< email user="info" domain="ugloo.com" class="cool-link" >}}  
-<u>Phone</u> 📞 {{< tel number="1 44 18 30 01" country="33" class="cool-link" note="Prefer e-mail…">}}
 
 ### Head of Web content
 
