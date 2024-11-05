@@ -9,17 +9,16 @@ menu:
 
 # Mentions légales
 
-## UGLOO  
+## UGLOO
 <u>Siret :</u> 852 409 150 000 12  
 
 ### Contact
 
-Ugloo  
+✉️ **Ugloo**  
 9, rue du Quatre Septembre  
 75002, Paris (France)  
 
 <u>E-mail</u> 📧 {{< email user="info" domain="ugloo.com" class="cool-link" >}}  
-<u>Tél.</u> 📞 {{< tel number="1 44 18 30 01" country="33" class="cool-link" note="Préférez l'e-mail…">}}
 
 ### Directeur de la publication
 
