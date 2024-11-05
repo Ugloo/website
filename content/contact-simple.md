@@ -15,4 +15,4 @@ Vous pouvez nous joindre sur les réseaux sociaux.
 
 - LinkedIn : https://www.linkedin.com/company/ugloo
 
-ou par e-mail : {{< email user="contact" domain="ugloo.com" class="cool-link" >}}
+ou par e-mail : {{< email user="ugloo" domain="ugloo.com" class="cool-link" >}}
