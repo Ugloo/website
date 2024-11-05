@@ -6,8 +6,6 @@
 # https://schema.org/Thing
 # https://schema.org/Article
 
-description: Stockage objet 🇫🇷 compatible AWS S3, indestructible, illimité et distribué
-
 # CONTENT-SECURITY-POLICY
 # used in layouts/partials/head/content-security-policy
 # beware of the specific syntax that is mandatory for templating reason

@@ -4,6 +4,7 @@ fr:
   weight: 10
   params:
     languageISO: 🇫🇷
+    description: Stockage objet 🇫🇷 compatible AWS S3, indestructible, illimité et distribué
 
 en:
   languageName: 🇺🇸 English
@@ -11,3 +12,4 @@ en:
   weight: 20
   params:
     languageISO: 🇺🇸
+    description: AWS S3 compatible object storage 🇫🇷, infinite-scaling, indestructible, distributed
